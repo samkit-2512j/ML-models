@@ -1,0 +1,19 @@
+{"time":"2024-10-09T05:35:09.853742193+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T05:35:09.853751326+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241009_053509-w2kihduu/logs/debug-core.log"}
+{"time":"2024-10-09T05:35:09.859787946+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T05:35:09.863081697+05:30","level":"INFO","msg":"created new stream","id":"w2kihduu"}
+{"time":"2024-10-09T05:35:09.863097652+05:30","level":"INFO","msg":"stream: started","id":"w2kihduu"}
+{"time":"2024-10-09T05:35:09.863113979+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"w2kihduu"}}
+{"time":"2024-10-09T05:35:09.863164506+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"w2kihduu"}}
+{"time":"2024-10-09T05:35:09.863158844+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"w2kihduu"}}
+{"time":"2024-10-09T05:35:10.475709892+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T05:35:10.476143823+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T05:35:15.945564978+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T05:35:17.600517911+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T05:35:19.259278956+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T05:35:20.788835693+05:30","level":"INFO","msg":"stream: closing","id":"w2kihduu"}
+{"time":"2024-10-09T05:35:20.788876329+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"w2kihduu"}}
+{"time":"2024-10-09T05:35:20.788900831+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"w2kihduu"}}
+{"time":"2024-10-09T05:35:20.788934031+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"w2kihduu"}}
+{"time":"2024-10-09T05:35:20.788961969+05:30","level":"INFO","msg":"stream: closed","id":"w2kihduu"}
+{"time":"2024-10-09T05:35:20.94804823+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

@@ -1,0 +1,9 @@
+<models.MLP.mlp_wandb.MLPW object at 0x72deb2a832b0>
+['books', 'beauty', 'home', 'electronics', 'furniture', 'clothing', 'sports', 'food']
+[9, 128, 64, 8]
+Training:   0%|                                                                                                                                                 | 0/100 [00:00<?, ?epoch/s]/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/activations.py:8: RuntimeWarning: overflow encountered in exp
+  return 1 / (1 + np.exp(-x))
+/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py:111: RuntimeWarning: invalid value encountered in multiply
+  delta = np.dot(delta, self.weights[i+1].T) * self.activation.derivative(zs[i])
+Training:   9%|████████████▎                                                                                                                            | 9/100 [00:00<00:07, 11.52epoch/s]
+Early stopping at epoch 9

@@ -1,0 +1,19 @@
+{"time":"2024-10-13T18:53:03.796580488+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:53:03.796591751+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_185303-ncktfe81/logs/debug-core.log"}
+{"time":"2024-10-13T18:53:03.799413958+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:53:03.804018022+05:30","level":"INFO","msg":"created new stream","id":"ncktfe81"}
+{"time":"2024-10-13T18:53:03.804034733+05:30","level":"INFO","msg":"stream: started","id":"ncktfe81"}
+{"time":"2024-10-13T18:53:03.804050627+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ncktfe81"}}
+{"time":"2024-10-13T18:53:03.804084551+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ncktfe81"}}
+{"time":"2024-10-13T18:53:03.804048282+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ncktfe81"}}
+{"time":"2024-10-13T18:53:04.16256233+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:53:04.163143752+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:53:13.243129161+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:53:13.244563538+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:53:14.436081628+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:53:16.098412509+05:30","level":"INFO","msg":"stream: closing","id":"ncktfe81"}
+{"time":"2024-10-13T18:53:16.098512202+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ncktfe81"}}
+{"time":"2024-10-13T18:53:16.098513073+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"ncktfe81"}}
+{"time":"2024-10-13T18:53:16.098551448+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"ncktfe81"}}
+{"time":"2024-10-13T18:53:16.09865373+05:30","level":"INFO","msg":"stream: closed","id":"ncktfe81"}
+{"time":"2024-10-13T18:53:18.244675978+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

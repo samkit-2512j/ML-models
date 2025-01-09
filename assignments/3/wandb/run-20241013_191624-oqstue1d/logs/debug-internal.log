@@ -1,0 +1,19 @@
+{"time":"2024-10-13T19:16:24.025496032+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:16:24.025510171+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_191624-oqstue1d/logs/debug-core.log"}
+{"time":"2024-10-13T19:16:24.028414929+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:16:24.032523582+05:30","level":"INFO","msg":"created new stream","id":"oqstue1d"}
+{"time":"2024-10-13T19:16:24.03254836+05:30","level":"INFO","msg":"stream: started","id":"oqstue1d"}
+{"time":"2024-10-13T19:16:24.032568473+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"oqstue1d"}}
+{"time":"2024-10-13T19:16:24.03263984+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"oqstue1d"}}
+{"time":"2024-10-13T19:16:24.032692048+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"oqstue1d"}}
+{"time":"2024-10-13T19:16:24.38125262+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:16:24.382016517+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:16:24.57267897+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:16:24.574107002+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:16:26.941984564+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:16:28.280976386+05:30","level":"INFO","msg":"stream: closing","id":"oqstue1d"}
+{"time":"2024-10-13T19:16:28.281004941+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"oqstue1d"}}
+{"time":"2024-10-13T19:16:28.28102165+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"oqstue1d"}}
+{"time":"2024-10-13T19:16:28.281053867+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"oqstue1d"}}
+{"time":"2024-10-13T19:16:28.281058059+05:30","level":"INFO","msg":"stream: closed","id":"oqstue1d"}
+{"time":"2024-10-13T19:16:29.57425626+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

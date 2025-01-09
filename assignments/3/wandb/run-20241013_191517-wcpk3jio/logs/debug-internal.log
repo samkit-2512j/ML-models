@@ -1,0 +1,18 @@
+{"time":"2024-10-13T19:15:17.766329966+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:15:17.766345993+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_191517-wcpk3jio/logs/debug-core.log"}
+{"time":"2024-10-13T19:15:17.771990002+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:15:17.77553357+05:30","level":"INFO","msg":"created new stream","id":"wcpk3jio"}
+{"time":"2024-10-13T19:15:17.775547877+05:30","level":"INFO","msg":"stream: started","id":"wcpk3jio"}
+{"time":"2024-10-13T19:15:17.775559931+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"wcpk3jio"}}
+{"time":"2024-10-13T19:15:17.775600875+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wcpk3jio"}}
+{"time":"2024-10-13T19:15:17.775630434+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"wcpk3jio"}}
+{"time":"2024-10-13T19:15:18.177836652+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:15:18.17827732+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:15:18.348714626+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:15:18.349884746+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:15:19.990974739+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:15:21.445127002+05:30","level":"INFO","msg":"stream: closing","id":"wcpk3jio"}
+{"time":"2024-10-13T19:15:21.445169094+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"wcpk3jio"}}
+{"time":"2024-10-13T19:15:21.44520412+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wcpk3jio"}}
+{"time":"2024-10-13T19:15:21.445242867+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"wcpk3jio"}}
+{"time":"2024-10-13T19:15:21.445308178+05:30","level":"INFO","msg":"stream: closed","id":"wcpk3jio"}

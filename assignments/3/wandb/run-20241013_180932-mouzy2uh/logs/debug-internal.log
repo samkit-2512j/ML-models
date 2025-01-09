@@ -1,0 +1,19 @@
+{"time":"2024-10-13T18:09:32.225030951+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:09:32.225044096+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_180932-mouzy2uh/logs/debug-core.log"}
+{"time":"2024-10-13T18:09:32.2251329+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:09:32.227551925+05:30","level":"INFO","msg":"created new stream","id":"mouzy2uh"}
+{"time":"2024-10-13T18:09:32.227574756+05:30","level":"INFO","msg":"stream: started","id":"mouzy2uh"}
+{"time":"2024-10-13T18:09:32.227602694+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"mouzy2uh"}}
+{"time":"2024-10-13T18:09:32.227627538+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mouzy2uh"}}
+{"time":"2024-10-13T18:09:32.227640553+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"mouzy2uh"}}
+{"time":"2024-10-13T18:09:32.596249333+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:09:32.596421499+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:10:06.614482465+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:10:06.616274287+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:10:07.738104747+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:10:09.100750338+05:30","level":"INFO","msg":"stream: closing","id":"mouzy2uh"}
+{"time":"2024-10-13T18:10:09.100772833+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"mouzy2uh"}}
+{"time":"2024-10-13T18:10:09.10080022+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"mouzy2uh"}}
+{"time":"2024-10-13T18:10:09.100842361+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"mouzy2uh"}}
+{"time":"2024-10-13T18:10:09.100852881+05:30","level":"INFO","msg":"stream: closed","id":"mouzy2uh"}
+{"time":"2024-10-13T18:10:11.616861558+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

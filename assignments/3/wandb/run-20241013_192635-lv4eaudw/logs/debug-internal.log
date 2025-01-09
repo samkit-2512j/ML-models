@@ -1,0 +1,19 @@
+{"time":"2024-10-13T19:26:35.104089948+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:26:35.10410876+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_192635-lv4eaudw/logs/debug-core.log"}
+{"time":"2024-10-13T19:26:35.109849597+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:26:35.113889169+05:30","level":"INFO","msg":"created new stream","id":"lv4eaudw"}
+{"time":"2024-10-13T19:26:35.113910729+05:30","level":"INFO","msg":"stream: started","id":"lv4eaudw"}
+{"time":"2024-10-13T19:26:35.11393213+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"lv4eaudw"}}
+{"time":"2024-10-13T19:26:35.11393309+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lv4eaudw"}}
+{"time":"2024-10-13T19:26:35.113980583+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"lv4eaudw"}}
+{"time":"2024-10-13T19:26:35.487121388+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:26:35.487950907+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:26:35.646571746+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:26:35.647866424+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:26:37.293045327+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:26:38.640732302+05:30","level":"INFO","msg":"stream: closing","id":"lv4eaudw"}
+{"time":"2024-10-13T19:26:38.640752199+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"lv4eaudw"}}
+{"time":"2024-10-13T19:26:38.640776416+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lv4eaudw"}}
+{"time":"2024-10-13T19:26:38.640824848+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"lv4eaudw"}}
+{"time":"2024-10-13T19:26:38.640859375+05:30","level":"INFO","msg":"stream: closed","id":"lv4eaudw"}
+{"time":"2024-10-13T19:26:40.64846486+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

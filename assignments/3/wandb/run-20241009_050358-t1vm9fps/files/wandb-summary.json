@@ -1,0 +1,1 @@
+{"activation":"sigmoid","val_precision":0,"_wandb":{"runtime":1},"epochs":50,"optimizer":"adam","_timestamp":1.7284304395966125e+09,"_step":0,"_runtime":1.395030728,"train_loss":1.1372862087611695,"hidden_layers":[128,64,32],"val_loss":1.2238000824960726,"train_recall":0,"batch_size":64,"train_precision":0,"learning_rate":0.01,"val_recall":0}

@@ -1,0 +1,19 @@
+{"time":"2024-10-13T18:11:02.162073007+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:11:02.162086034+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_181102-kimu27u0/logs/debug-core.log"}
+{"time":"2024-10-13T18:11:02.162196007+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:11:02.164800347+05:30","level":"INFO","msg":"created new stream","id":"kimu27u0"}
+{"time":"2024-10-13T18:11:02.164819382+05:30","level":"INFO","msg":"stream: started","id":"kimu27u0"}
+{"time":"2024-10-13T18:11:02.164839374+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"kimu27u0"}}
+{"time":"2024-10-13T18:11:02.164864604+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"kimu27u0"}}
+{"time":"2024-10-13T18:11:02.164851602+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kimu27u0"}}
+{"time":"2024-10-13T18:11:02.566937301+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:11:02.567156446+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:11:06.954054664+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:11:06.956091242+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:11:08.127523488+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:11:09.594231889+05:30","level":"INFO","msg":"stream: closing","id":"kimu27u0"}
+{"time":"2024-10-13T18:11:09.59426341+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"kimu27u0"}}
+{"time":"2024-10-13T18:11:09.59430063+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kimu27u0"}}
+{"time":"2024-10-13T18:11:09.594355529+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"kimu27u0"}}
+{"time":"2024-10-13T18:11:09.594418323+05:30","level":"INFO","msg":"stream: closed","id":"kimu27u0"}
+{"time":"2024-10-13T18:11:11.956137048+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

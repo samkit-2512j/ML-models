@@ -1,0 +1,19 @@
+{"time":"2024-10-13T19:24:31.79795025+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:24:31.797967275+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_192431-ibni0tli/logs/debug-core.log"}
+{"time":"2024-10-13T19:24:31.835254997+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:24:31.843783617+05:30","level":"INFO","msg":"created new stream","id":"ibni0tli"}
+{"time":"2024-10-13T19:24:31.843832469+05:30","level":"INFO","msg":"stream: started","id":"ibni0tli"}
+{"time":"2024-10-13T19:24:31.843880326+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ibni0tli"}}
+{"time":"2024-10-13T19:24:31.843944727+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ibni0tli"}}
+{"time":"2024-10-13T19:24:31.844009248+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ibni0tli"}}
+{"time":"2024-10-13T19:24:32.183132907+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:24:32.183573284+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:24:32.404831314+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:24:32.406126762+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:24:33.987776564+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:24:35.324881788+05:30","level":"INFO","msg":"stream: closing","id":"ibni0tli"}
+{"time":"2024-10-13T19:24:35.324906113+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"ibni0tli"}}
+{"time":"2024-10-13T19:24:35.324936511+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ibni0tli"}}
+{"time":"2024-10-13T19:24:35.324971528+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"ibni0tli"}}
+{"time":"2024-10-13T19:24:35.325034833+05:30","level":"INFO","msg":"stream: closed","id":"ibni0tli"}
+{"time":"2024-10-13T19:24:37.406598328+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

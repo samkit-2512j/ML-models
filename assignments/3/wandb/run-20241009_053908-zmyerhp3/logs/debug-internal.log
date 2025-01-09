@@ -1,0 +1,18 @@
+{"time":"2024-10-09T05:39:08.18205511+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T05:39:08.182073935+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241009_053908-zmyerhp3/logs/debug-core.log"}
+{"time":"2024-10-09T05:39:08.18800187+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T05:39:08.191135203+05:30","level":"INFO","msg":"created new stream","id":"zmyerhp3"}
+{"time":"2024-10-09T05:39:08.1911491+05:30","level":"INFO","msg":"stream: started","id":"zmyerhp3"}
+{"time":"2024-10-09T05:39:08.19116323+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"zmyerhp3"}}
+{"time":"2024-10-09T05:39:08.191202211+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zmyerhp3"}}
+{"time":"2024-10-09T05:39:08.191202716+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"zmyerhp3"}}
+{"time":"2024-10-09T05:39:08.639486315+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T05:39:08.640170421+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T05:39:13.553257031+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T05:39:13.554987216+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T05:39:15.548309726+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T05:39:17.027868604+05:30","level":"INFO","msg":"stream: closing","id":"zmyerhp3"}
+{"time":"2024-10-09T05:39:17.027882006+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"zmyerhp3"}}
+{"time":"2024-10-09T05:39:17.027892607+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"zmyerhp3"}}
+{"time":"2024-10-09T05:39:17.027932067+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"zmyerhp3"}}
+{"time":"2024-10-09T05:39:17.027954975+05:30","level":"INFO","msg":"stream: closed","id":"zmyerhp3"}

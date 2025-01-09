@@ -1,0 +1,8 @@
+<models.MLP.mlp_wandb.MLPW object at 0x7877aa625940>
+['electronics', 'home', 'beauty', 'furniture', 'clothing', 'sports', 'books', 'food']
+Traceback (most recent call last):
+  File "multi_label_hyperparameter.py", line 146, in run
+    model.fit(X_train,y_train,X_val,y_val,6, log_wandb=True)
+  File "/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py", line 194, in fit
+    zeros[i]=1
+IndexError: list assignment index out of range

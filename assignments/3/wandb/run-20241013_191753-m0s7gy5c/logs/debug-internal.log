@@ -1,0 +1,18 @@
+{"time":"2024-10-13T19:17:53.410579573+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:17:53.410597753+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_191753-m0s7gy5c/logs/debug-core.log"}
+{"time":"2024-10-13T19:17:53.424282353+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:17:53.428944977+05:30","level":"INFO","msg":"created new stream","id":"m0s7gy5c"}
+{"time":"2024-10-13T19:17:53.428969056+05:30","level":"INFO","msg":"stream: started","id":"m0s7gy5c"}
+{"time":"2024-10-13T19:17:53.428975126+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"m0s7gy5c"}}
+{"time":"2024-10-13T19:17:53.428980824+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"m0s7gy5c"}}
+{"time":"2024-10-13T19:17:53.42899444+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"m0s7gy5c"}}
+{"time":"2024-10-13T19:17:53.878025509+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:17:53.879459818+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:17:55.073312905+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:17:55.076703676+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:17:56.376106929+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:17:57.715118115+05:30","level":"INFO","msg":"stream: closing","id":"m0s7gy5c"}
+{"time":"2024-10-13T19:17:57.715143128+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"m0s7gy5c"}}
+{"time":"2024-10-13T19:17:57.715171057+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"m0s7gy5c"}}
+{"time":"2024-10-13T19:17:57.715234033+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"m0s7gy5c"}}
+{"time":"2024-10-13T19:17:57.715246729+05:30","level":"INFO","msg":"stream: closed","id":"m0s7gy5c"}

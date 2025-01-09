@@ -1,0 +1,31 @@
+[11, 32, 16, 6]
+Training:  11%|██████████████▊                                                                                                                      | 111/1000 [00:00<00:04, 208.78epoch/s]
+Early stopping at epoch 111
+[2 3 2 2 2 3 3 3 2 3 3 2 4 3 3 3 3 3 2 3 3 4 3 3 2 3 2 3 2 2 3 2 3 2 3 2 2
+ 2 3 2 2 3 2 2 3 3 2 3 2 4 3 2 3 3 2 2 2 2 4 3 2 2 3 2 3 2 3 3 4 2 3 3 3 4
+ 3 2 3 3 3 2 3 3 3 3 3 3 2 3 3 3 4 2 3 2 3 2 3 3 4 3 3 2 2 4 3 3 2 3 2 3 3
+ 2 3 4 2]
+[2 2 3 0 2 3 3 2 2 3 3 3 3 3 3 2 3 2 2 3 4 4 3 3 2 3 2 2 2 2 2 2 3 3 5 3 2
+ 3 3 2 3 4 1 1 2 3 1 2 2 5 2 2 3 3 2 2 2 3 4 2 2 3 2 2 2 2 2 3 3 2 3 3 4 2
+ 3 2 3 3 4 3 4 3 3 3 5 2 2 3 3 2 3 2 3 2 3 2 4 2 4 3 2 3 2 4 3 3 2 3 3 3 3
+ 3 2 3 4]
+Accuracy: 0.5739130434782609
+Precision: [0.         0.         0.61363636 0.57377049 0.4        0.        ]
+Recall: [0.0, 0.0, 0.5869565217391305, 0.6862745098039216, 0.36363636363636365, 0.0]
+F1 score: 0.27281123252990264
+Final loss: 0.8115566546912937
+Layer 1:
+  Weights - Max difference: 1.4102349409766957e-09
+  Biases - Max difference: 1.0120572374941461e-09
+  Relative difference (weights): 1.0981475831628883e-07
+  Relative difference (biases): 9.782493778507333e-08
+Layer 2:
+  Weights - Max difference: 1.2720488050892804e-09
+  Biases - Max difference: 9.727193924467803e-10
+  Relative difference (weights): 8.539354156175603e-08
+  Relative difference (biases): 6.582865939167004e-08
+Layer 3:
+  Weights - Max difference: 1.1630257989309056e-09
+  Biases - Max difference: 4.2795316075594503e-10
+  Relative difference (weights): 4.3704006739461054e-08
+  Relative difference (biases): 3.6522519874754454e-08

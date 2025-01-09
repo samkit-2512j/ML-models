@@ -1,0 +1,24 @@
+kmeans 
+0 : listen, flame, knock, bury, download, postcard, hard, fight, call, hit, far, cry, sleep, clean, sad, slide, draw, pray, arrest, email, buy, burn, fire, close, lazy, scary, hang, book, enter, key, happy, loud, love, cook, recycle, cut
+
+1 : panda, ape, sit, cat, mug, eat, gym, rifle, cow, pencil, bed, dig, run, van, sun, feet, fruit, calendar, ant, bee, camera, tomato, car, lantern, pant, potato
+
+2 : deer, helicopter, eraser, carrot, giraffe, lizard, feather, starfish, sweater, pear, peacock, saturn, scissor, grape, goldfish, beetle, screwdriver, dragonfly, parachute, butterfly, elephant, windmill, crocodile, paintbrush
+
+3 : rose, smile, face, kiss, selfie, jacket, puppy, drink, angry, tattoo
+
+4 : drive, sing, dive, needle, exit, brick, fishing, bear, spider, bullet, shark, grass, forest, bend, frog, puppet, fly, lake, climb, kneel, scream, monkey, roof, catch, paint, plant, clap, pull, baseball, hollow, bucket, boat, basket, empty, fish, ladder, bird, clock, spiderman, tree, skate, hammer, snake, earth, rain, tank, airplane, swim, zip, sword, rainy, basketball, wheel, bicycle, arrow, shoe, walk, sunny, truck
+
+5 : table, brush, spoon, passport, stairs, microwave, notebook, knit, cigarette, microphone, bench, flute, laptop, door, badminton, chair, mouse, finger, candle, igloo, oven, calculator, pillow, envelope, toothbrush, fingerprints, teaspoon, length, dustbin, ambulance, pizza, television, throne, tent, loudspeaker, telephone, stove, knife, toothpaste, toaster, comb, keyboard, fork, radio, suitcase
+
+kgmm 
+0 : needle, table, climb, roof, stairs, bench, chair, ladder, throne, loudspeaker, lantern, stove, suitcase
+
+1 : deer, panda, ape, helicopter, cat, spider, grass, giraffe, lizard, mug, frog, gym, rifle, cow, bed, starfish, microwave, van, jacket, sun, feet, pear, peacock, saturn, fruit, grape, laptop, calendar, ant, igloo, goldfish, calculator, spiderman, bee, pillow, tree, beetle, ambulance, television, tent, camera, tomato, dragonfly, parachute, butterfly, car, elephant, pant, bicycle, windmill, toaster, potato, crocodile
+
+2 : listen, flame, sit, knock, bury, download, eat, hard, fight, call, fly, catch, hit, far, dig, cry, run, clap, pull, sleep, clean, sad, slide, draw, pray, arrest, email, buy, burn, fire, close, angry, lazy, scary, hang, book, enter, happy, loud, love, recycle, cut
+
+3 : drive, sing, rose, dive, exit, brick, fishing, smile, bear, bullet, shark, forest, postcard, bend, puppet, lake, face, kneel, scream, monkey, kiss, passport, selfie, paint, plant, notebook, baseball, hollow, bucket, puppy, boat, basket, empty, fish, drink, door, mouse, bird, clock, oven, envelope, skate, hammer, snake, tattoo, earth, dustbin, rain, tank, airplane, pizza, key, swim, zip, sword, telephone, rainy, cook, basketball, wheel, arrow, shoe, walk, keyboard, sunny, radio, truck
+
+4 : eraser, carrot, brush, feather, spoon, pencil, knit, sweater, cigarette, microphone, flute, scissor, badminton, finger, candle, toothbrush, screwdriver, fingerprints, teaspoon, length, knife, toothpaste, comb, fork, paintbrush
+

@@ -1,0 +1,21 @@
+{"time":"2024-10-13T18:33:16.696673401+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:33:16.696682749+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_183316-0cer664b/logs/debug-core.log"}
+{"time":"2024-10-13T18:33:16.69927084+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:33:16.702398303+05:30","level":"INFO","msg":"created new stream","id":"0cer664b"}
+{"time":"2024-10-13T18:33:16.702411847+05:30","level":"INFO","msg":"stream: started","id":"0cer664b"}
+{"time":"2024-10-13T18:33:16.702422936+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"0cer664b"}}
+{"time":"2024-10-13T18:33:16.702474515+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0cer664b"}}
+{"time":"2024-10-13T18:33:16.702530188+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"0cer664b"}}
+{"time":"2024-10-13T18:33:17.063830298+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:33:17.064253241+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:33:19.724319215+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:33:19.726847939+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:33:19.997334501+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-13T18:33:19.99737651+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-13T18:33:20.672546714+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:33:22.087902926+05:30","level":"INFO","msg":"stream: closing","id":"0cer664b"}
+{"time":"2024-10-13T18:33:22.087926084+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"0cer664b"}}
+{"time":"2024-10-13T18:33:22.087953412+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"0cer664b"}}
+{"time":"2024-10-13T18:33:22.087962364+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"0cer664b"}}
+{"time":"2024-10-13T18:33:22.088013186+05:30","level":"INFO","msg":"stream: closed","id":"0cer664b"}
+{"time":"2024-10-13T18:33:24.726884359+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

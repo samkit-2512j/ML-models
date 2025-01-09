@@ -1,0 +1,5 @@
+<models.MLP.mlp_wandb.MLPW object at 0x72deb2297d90>
+['books', 'beauty', 'home', 'electronics', 'furniture', 'clothing', 'sports', 'food']
+[9, 32, 16, 8]
+Training:   4%|█████▋                                                                                                                                 | 21/500 [00:00<00:02, 197.38epoch/s]
+Early stopping at epoch 21

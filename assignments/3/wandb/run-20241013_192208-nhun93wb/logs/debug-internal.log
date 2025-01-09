@@ -1,0 +1,19 @@
+{"time":"2024-10-13T19:22:08.296625337+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:22:08.296643012+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_192208-nhun93wb/logs/debug-core.log"}
+{"time":"2024-10-13T19:22:08.299394762+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:22:08.302859094+05:30","level":"INFO","msg":"created new stream","id":"nhun93wb"}
+{"time":"2024-10-13T19:22:08.302889972+05:30","level":"INFO","msg":"stream: started","id":"nhun93wb"}
+{"time":"2024-10-13T19:22:08.302902454+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"nhun93wb"}}
+{"time":"2024-10-13T19:22:08.302922551+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nhun93wb"}}
+{"time":"2024-10-13T19:22:08.302941525+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"nhun93wb"}}
+{"time":"2024-10-13T19:22:08.666905944+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:22:08.667382187+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:22:08.850972077+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:22:08.852390928+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:22:11.207814965+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:22:12.652242181+05:30","level":"INFO","msg":"stream: closing","id":"nhun93wb"}
+{"time":"2024-10-13T19:22:12.652256677+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"nhun93wb"}}
+{"time":"2024-10-13T19:22:12.652276744+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nhun93wb"}}
+{"time":"2024-10-13T19:22:12.652304273+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"nhun93wb"}}
+{"time":"2024-10-13T19:22:12.652358718+05:30","level":"INFO","msg":"stream: closed","id":"nhun93wb"}
+{"time":"2024-10-13T19:22:13.852579162+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

@@ -1,0 +1,6 @@
+<models.MLP.mlp_wandb.MLPW object at 0x7b2c7bd7bf10>
+[13, 64, 32, 1]
+Training:   0%|                                                                                                                                   | 0/500 [00:00<?, ?epoch/s]/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py:111: RuntimeWarning: invalid value encountered in multiply
+  delta = np.dot(delta, self.weights[i+1].T) * self.activation.derivative(zs[i])
+Training:   2%|██▍                                                                                                                       | 10/500 [00:00<00:13, 35.17epoch/s]
+Early stopping at epoch 10

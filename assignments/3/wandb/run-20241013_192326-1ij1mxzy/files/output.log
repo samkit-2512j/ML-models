@@ -1,0 +1,14 @@
+<models.MLP.mlp_wandb.MLPW object at 0x7b2c7ba24700>
+[13, 64, 32, 1]
+Training:   0%|                                                                                                                                   | 0/100 [00:00<?, ?epoch/s]/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py:58: RuntimeWarning: overflow encountered in square
+  return np.mean((y_true - y_pred) ** 2)
+/home/samkit/anaconda3/envs/normal/lib/python3.8/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py:129: RuntimeWarning: overflow encountered in square
+  ss_res = np.sum((y_true - y_pred) ** 2)
+/home/samkit/anaconda3/envs/normal/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py:111: RuntimeWarning: invalid value encountered in multiply
+  delta = np.dot(delta, self.weights[i+1].T) * self.activation.derivative(zs[i])
+Early stopping at epoch 11
+Training:  11%|█████████████▎                                                                                                           | 11/100 [00:00<00:00, 211.30epoch/s]

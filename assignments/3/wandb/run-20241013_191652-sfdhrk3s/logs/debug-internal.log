@@ -1,0 +1,18 @@
+{"time":"2024-10-13T19:16:52.606771025+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:16:52.606780755+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_191652-sfdhrk3s/logs/debug-core.log"}
+{"time":"2024-10-13T19:16:52.636595522+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:16:52.644745373+05:30","level":"INFO","msg":"created new stream","id":"sfdhrk3s"}
+{"time":"2024-10-13T19:16:52.644804431+05:30","level":"INFO","msg":"stream: started","id":"sfdhrk3s"}
+{"time":"2024-10-13T19:16:52.644852213+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"sfdhrk3s"}}
+{"time":"2024-10-13T19:16:52.644952175+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"sfdhrk3s"}}
+{"time":"2024-10-13T19:16:52.644906272+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"sfdhrk3s"}}
+{"time":"2024-10-13T19:16:53.005486488+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:16:53.006366799+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:16:53.734317866+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:16:53.736722331+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:16:56.011524062+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:16:57.37360673+05:30","level":"INFO","msg":"stream: closing","id":"sfdhrk3s"}
+{"time":"2024-10-13T19:16:57.373636556+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"sfdhrk3s"}}
+{"time":"2024-10-13T19:16:57.373668136+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"sfdhrk3s"}}
+{"time":"2024-10-13T19:16:57.373725964+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"sfdhrk3s"}}
+{"time":"2024-10-13T19:16:57.37377669+05:30","level":"INFO","msg":"stream: closed","id":"sfdhrk3s"}

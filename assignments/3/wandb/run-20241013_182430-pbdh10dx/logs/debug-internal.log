@@ -1,0 +1,19 @@
+{"time":"2024-10-13T18:24:30.173200856+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:24:30.17322333+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_182430-pbdh10dx/logs/debug-core.log"}
+{"time":"2024-10-13T18:24:30.178769456+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:24:30.185228097+05:30","level":"INFO","msg":"created new stream","id":"pbdh10dx"}
+{"time":"2024-10-13T18:24:30.185260869+05:30","level":"INFO","msg":"stream: started","id":"pbdh10dx"}
+{"time":"2024-10-13T18:24:30.18529345+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"pbdh10dx"}}
+{"time":"2024-10-13T18:24:30.185370025+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pbdh10dx"}}
+{"time":"2024-10-13T18:24:30.185317717+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"pbdh10dx"}}
+{"time":"2024-10-13T18:24:30.536261886+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:24:30.536692223+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:24:31.611367274+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:24:31.612856214+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:24:32.779646698+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:24:34.127831973+05:30","level":"INFO","msg":"stream: closing","id":"pbdh10dx"}
+{"time":"2024-10-13T18:24:34.127863093+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"pbdh10dx"}}
+{"time":"2024-10-13T18:24:34.12791056+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"pbdh10dx"}}
+{"time":"2024-10-13T18:24:34.127905374+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"pbdh10dx"}}
+{"time":"2024-10-13T18:24:34.128013893+05:30","level":"INFO","msg":"stream: closed","id":"pbdh10dx"}
+{"time":"2024-10-13T18:24:36.61298616+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

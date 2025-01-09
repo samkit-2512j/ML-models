@@ -1,0 +1,9 @@
+Training with config: {'learning_rate': 0.001, 'hidden_layers': [64, 32], 'activation': 'relu', 'epochs': 100, 'optimizer': 'sgd', 'batch_size': 32}
+Traceback (most recent call last):
+  File "hyperparameter_mc.py", line 110, in <module>
+    val_accuracy = train_and_log_model(config)
+  File "hyperparameter_mc.py", line 73, in train_and_log_model
+    model = MLPW(
+  File "/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py", line 25, in __init__
+    self.activation = activation()
+TypeError: 'str' object is not callable

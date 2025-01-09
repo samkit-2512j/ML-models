@@ -1,0 +1,11 @@
+Training with config: {'learning_rate': 0.001, 'hidden_layers': [64, 32], 'activation': <class 'models.MLP.activations.relu'>, 'epochs': 100, 'optimizer': 'sgd', 'batch_size': 32}
+[11, 64, 32, 6]
+Training:   0%|                                                                                                                                                 | 0/100 [00:00<?, ?epoch/s]
+Traceback (most recent call last):
+  File "hyperparameter_mc.py", line 110, in <module>
+    val_accuracy = train_and_log_model(config)
+  File "hyperparameter_mc.py", line 86, in train_and_log_model
+    model.fit(X_train, y_train, X_val, y_val, 6,log_wandb=True)
+  File "/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py", line 272, in fit
+    f"{v}": val_acc,
+NameError: name 'val_acc' is not defined

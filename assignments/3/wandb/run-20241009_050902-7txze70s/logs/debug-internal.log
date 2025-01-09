@@ -1,0 +1,19 @@
+{"time":"2024-10-09T05:09:02.244303668+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T05:09:02.244313904+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241009_050902-7txze70s/logs/debug-core.log"}
+{"time":"2024-10-09T05:09:02.250262497+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T05:09:02.255020371+05:30","level":"INFO","msg":"created new stream","id":"7txze70s"}
+{"time":"2024-10-09T05:09:02.255036625+05:30","level":"INFO","msg":"stream: started","id":"7txze70s"}
+{"time":"2024-10-09T05:09:02.255053058+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"7txze70s"}}
+{"time":"2024-10-09T05:09:02.255065648+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7txze70s"}}
+{"time":"2024-10-09T05:09:02.255073362+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"7txze70s"}}
+{"time":"2024-10-09T05:09:02.859202709+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T05:09:02.85956977+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T05:09:06.064871792+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T05:09:06.066629654+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T05:09:08.291026231+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T05:09:09.751063991+05:30","level":"INFO","msg":"stream: closing","id":"7txze70s"}
+{"time":"2024-10-09T05:09:09.751080513+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"7txze70s"}}
+{"time":"2024-10-09T05:09:09.751099812+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7txze70s"}}
+{"time":"2024-10-09T05:09:09.751144932+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"7txze70s"}}
+{"time":"2024-10-09T05:09:09.751151982+05:30","level":"INFO","msg":"stream: closed","id":"7txze70s"}
+{"time":"2024-10-09T05:09:11.066789958+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

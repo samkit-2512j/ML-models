@@ -1,0 +1,19 @@
+{"time":"2024-10-13T19:09:05.35396891+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:09:05.353998275+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190905-hwkyeti6/logs/debug-core.log"}
+{"time":"2024-10-13T19:09:05.357839982+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:09:05.363402829+05:30","level":"INFO","msg":"created new stream","id":"hwkyeti6"}
+{"time":"2024-10-13T19:09:05.363451316+05:30","level":"INFO","msg":"stream: started","id":"hwkyeti6"}
+{"time":"2024-10-13T19:09:05.363479736+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"hwkyeti6"}}
+{"time":"2024-10-13T19:09:05.363537433+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"hwkyeti6"}}
+{"time":"2024-10-13T19:09:05.363552516+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hwkyeti6"}}
+{"time":"2024-10-13T19:09:05.720146295+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:09:05.720607707+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:09:06.351560534+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:09:06.353469993+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:09:08.263471656+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:09:09.717531082+05:30","level":"INFO","msg":"stream: closing","id":"hwkyeti6"}
+{"time":"2024-10-13T19:09:09.717548779+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"hwkyeti6"}}
+{"time":"2024-10-13T19:09:09.717572601+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hwkyeti6"}}
+{"time":"2024-10-13T19:09:09.717582915+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"hwkyeti6"}}
+{"time":"2024-10-13T19:09:09.717611396+05:30","level":"INFO","msg":"stream: closed","id":"hwkyeti6"}
+{"time":"2024-10-13T19:09:11.354331191+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

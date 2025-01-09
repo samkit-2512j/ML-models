@@ -1,0 +1,3 @@
+[12, 64, 32, 6]
+Training:  11%|██████████████▉                                                                                                                         | 11/100 [00:00<00:05, 16.77epoch/s]
+Early stopping at epoch 11

@@ -1,0 +1,20 @@
+{"time":"2024-10-13T18:32:20.285740002+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:32:20.285756832+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_183220-lkjfqq33/logs/debug-core.log"}
+{"time":"2024-10-13T18:32:20.288718013+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:32:20.293591902+05:30","level":"INFO","msg":"created new stream","id":"lkjfqq33"}
+{"time":"2024-10-13T18:32:20.293610232+05:30","level":"INFO","msg":"stream: started","id":"lkjfqq33"}
+{"time":"2024-10-13T18:32:20.293631909+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"lkjfqq33"}}
+{"time":"2024-10-13T18:32:20.293682535+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lkjfqq33"}}
+{"time":"2024-10-13T18:32:20.293780262+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"lkjfqq33"}}
+{"time":"2024-10-13T18:32:20.755211626+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:32:20.755975103+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:32:21.420792521+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:32:21.423700852+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:32:21.705302102+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-13T18:32:21.705321762+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-13T18:32:22.388962033+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:32:23.741278886+05:30","level":"INFO","msg":"stream: closing","id":"lkjfqq33"}
+{"time":"2024-10-13T18:32:23.741303863+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"lkjfqq33"}}
+{"time":"2024-10-13T18:32:23.741330746+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lkjfqq33"}}
+{"time":"2024-10-13T18:32:23.741376466+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"lkjfqq33"}}
+{"time":"2024-10-13T18:32:23.741385007+05:30","level":"INFO","msg":"stream: closed","id":"lkjfqq33"}

@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activations:
+  value: relu
+batch_size:
+  value: 64
+early_stopping:
+  value: true
+epochs:
+  value: 500
+hidden_layers:
+  value:
+  - 32
+  - 16
+learning_rate:
+  value: 0.007884062920951809
+loss_func:
+  value: mse
+model:
+  value: regressor
+optimizer:
+  value: mini-batch

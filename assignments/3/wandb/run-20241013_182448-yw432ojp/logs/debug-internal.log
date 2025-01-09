@@ -1,0 +1,19 @@
+{"time":"2024-10-13T18:24:48.567144966+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:24:48.567163332+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_182448-yw432ojp/logs/debug-core.log"}
+{"time":"2024-10-13T18:24:48.583875975+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:24:48.588652132+05:30","level":"INFO","msg":"created new stream","id":"yw432ojp"}
+{"time":"2024-10-13T18:24:48.588674331+05:30","level":"INFO","msg":"stream: started","id":"yw432ojp"}
+{"time":"2024-10-13T18:24:48.588687779+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yw432ojp"}}
+{"time":"2024-10-13T18:24:48.588726306+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"yw432ojp"}}
+{"time":"2024-10-13T18:24:48.588708031+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"yw432ojp"}}
+{"time":"2024-10-13T18:24:48.930934128+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:24:48.93159066+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:24:50.969966988+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:24:50.971874339+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:24:52.131195382+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:24:53.494364887+05:30","level":"INFO","msg":"stream: closing","id":"yw432ojp"}
+{"time":"2024-10-13T18:24:53.494403422+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"yw432ojp"}}
+{"time":"2024-10-13T18:24:53.494446488+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"yw432ojp"}}
+{"time":"2024-10-13T18:24:53.494481411+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"yw432ojp"}}
+{"time":"2024-10-13T18:24:53.494583456+05:30","level":"INFO","msg":"stream: closed","id":"yw432ojp"}
+{"time":"2024-10-13T18:24:55.972095393+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

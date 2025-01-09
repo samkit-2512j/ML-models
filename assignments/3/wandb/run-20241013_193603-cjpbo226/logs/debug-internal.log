@@ -1,0 +1,18 @@
+{"time":"2024-10-13T19:36:03.265723277+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:36:03.265733373+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193603-cjpbo226/logs/debug-core.log"}
+{"time":"2024-10-13T19:36:03.268786585+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:36:03.272193347+05:30","level":"INFO","msg":"created new stream","id":"cjpbo226"}
+{"time":"2024-10-13T19:36:03.272206274+05:30","level":"INFO","msg":"stream: started","id":"cjpbo226"}
+{"time":"2024-10-13T19:36:03.272216768+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"cjpbo226"}}
+{"time":"2024-10-13T19:36:03.272228382+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"cjpbo226"}}
+{"time":"2024-10-13T19:36:03.272222499+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"cjpbo226"}}
+{"time":"2024-10-13T19:36:03.733813268+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:36:03.734415386+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:36:04.406535811+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:36:04.409562716+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:36:05.518886664+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:36:05.88751275+05:30","level":"INFO","msg":"stream: closing","id":"cjpbo226"}
+{"time":"2024-10-13T19:36:05.887534373+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"cjpbo226"}}
+{"time":"2024-10-13T19:36:05.887549505+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"cjpbo226"}}
+{"time":"2024-10-13T19:36:05.887593729+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"cjpbo226"}}
+{"time":"2024-10-13T19:36:05.887604366+05:30","level":"INFO","msg":"stream: closed","id":"cjpbo226"}

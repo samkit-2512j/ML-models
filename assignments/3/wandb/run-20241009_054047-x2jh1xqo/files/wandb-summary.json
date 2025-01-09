@@ -1,0 +1,1 @@
+{"batch_size":64,"_step":0,"val_precision":0,"_wandb":{"runtime":1},"val_loss":1.071884277102604,"activation":"tanh","val_recall":0,"train_precision":0.0020576131687242796,"train_recall":0.006172839506172839,"train_loss":0.8272505687379117,"epochs":100,"optimizer":"adam","hidden_layers":[64,32],"_runtime":1.307425788,"learning_rate":0.01,"_timestamp":1.7284326484820137e+09}

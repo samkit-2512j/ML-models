@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "sweep_wandb.py", line 76, in run
+    model = MLPW(
+TypeError: __init__() got an unexpected keyword argument 'type'

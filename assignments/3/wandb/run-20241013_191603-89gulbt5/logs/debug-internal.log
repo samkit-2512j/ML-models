@@ -1,0 +1,18 @@
+{"time":"2024-10-13T19:16:03.27386377+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:16:03.273875201+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_191603-89gulbt5/logs/debug-core.log"}
+{"time":"2024-10-13T19:16:03.277158195+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:16:03.280879649+05:30","level":"INFO","msg":"created new stream","id":"89gulbt5"}
+{"time":"2024-10-13T19:16:03.280901774+05:30","level":"INFO","msg":"stream: started","id":"89gulbt5"}
+{"time":"2024-10-13T19:16:03.280914155+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"89gulbt5"}}
+{"time":"2024-10-13T19:16:03.280911114+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"89gulbt5"}}
+{"time":"2024-10-13T19:16:03.280929446+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"89gulbt5"}}
+{"time":"2024-10-13T19:16:03.638551299+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:16:03.63897676+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:16:04.131794464+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:16:04.133655047+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:16:05.575487645+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:16:06.916641477+05:30","level":"INFO","msg":"stream: closing","id":"89gulbt5"}
+{"time":"2024-10-13T19:16:06.916656413+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"89gulbt5"}}
+{"time":"2024-10-13T19:16:06.916677746+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"89gulbt5"}}
+{"time":"2024-10-13T19:16:06.916717736+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"89gulbt5"}}
+{"time":"2024-10-13T19:16:06.916724631+05:30","level":"INFO","msg":"stream: closed","id":"89gulbt5"}

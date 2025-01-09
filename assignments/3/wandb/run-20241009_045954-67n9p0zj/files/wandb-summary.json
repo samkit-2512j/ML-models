@@ -1,0 +1,1 @@
+{"activation":"sigmoid","train_precision":0.0026041666666666665,"optimizer":"adam","learning_rate":0.1,"val_precision":0,"train_recall":0.006172839506172839,"hidden_layers":[64,32],"val_loss":1.0415244890298252,"_step":0,"batch_size":32,"train_loss":0.8532735046166433,"val_recall":0,"_runtime":1.523394653,"_wandb":{"runtime":1},"_timestamp":1.728430196311399e+09,"epochs":100}

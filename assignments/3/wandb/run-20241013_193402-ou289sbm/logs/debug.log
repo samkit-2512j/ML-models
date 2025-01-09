@@ -1,0 +1,806 @@
+2024-10-13 19:34:02,472 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:02,477 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:02,480 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:02,482 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:02,484 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'ou289sbm', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-ou289sbm.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:02,486 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:02,488 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:02,489 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:02,490 INFO    Thread-618:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193402-ou289sbm/logs/debug.log
+2024-10-13 19:34:02,492 INFO    Thread-618:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193402-ou289sbm/logs/debug-internal.log
+2024-10-13 19:34:02,493 INFO    Thread-618:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:02,494 INFO    Thread-618:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [32, 16], 'learning_rate': 0.06681200210440977, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:34:02,496 INFO    Thread-618:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:34:02,497 INFO    Thread-618:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:34:02,501 INFO    Thread-618:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:34:02,503 INFO    Thread-618:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:34:02,509 INFO    Thread-618:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [32, 16], 'learning_rate': 0.06681200210440977, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+2024-10-13 19:34:02,512 INFO    Thread-618:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:34:02,525 INFO    Thread-618:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:34:02,893 INFO    Thread-618:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:34:02,960 INFO    Thread-618:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:34:02,962 INFO    Thread-618:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:34:02,963 INFO    Thread-618:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:34:02,964 INFO    Thread-618:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:34:02,966 INFO    Thread-618:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:34:02,979 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:02,979 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:02,981 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:02,981 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:02,982 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:02,982 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:02,984 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:02,984 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:02,985 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'ou289sbm', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-ou289sbm.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:02,985 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'ou289sbm', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-ou289sbm.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:02,987 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:02,987 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:02,988 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:02,988 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:02,989 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:02,989 INFO    Thread-618:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:02,990 INFO    Thread-618:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193402-ou289sbm/logs/debug.log
+2024-10-13 19:34:02,990 INFO    Thread-618:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193402-ou289sbm/logs/debug.log
+2024-10-13 19:34:02,992 INFO    Thread-618:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193402-ou289sbm/logs/debug-internal.log
+2024-10-13 19:34:02,992 INFO    Thread-618:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193402-ou289sbm/logs/debug-internal.log
+2024-10-13 19:34:02,993 INFO    Thread-618:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:02,993 INFO    Thread-618:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:02,994 INFO    Thread-618:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [32, 16], 'learning_rate': 0.06681200210440977, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.06681200210440977, 'activation': 'sigmoid', 'optimizer': 'sgd', 'batch_size': 64, 'epochs': 100, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:02,994 INFO    Thread-618:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [32, 16], 'learning_rate': 0.06681200210440977, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.06681200210440977, 'activation': 'sigmoid', 'optimizer': 'sgd', 'batch_size': 64, 'epochs': 100, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:02,996 INFO    Thread-618:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:02,996 INFO    Thread-618:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:03,391 INFO    Thread-618:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/ou289sbm
+2024-10-13 19:34:03,391 INFO    Thread-618:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/ou289sbm
+2024-10-13 19:34:03,392 INFO    Thread-618:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:03,392 INFO    Thread-618:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:03,394 INFO    Thread-618:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:03,394 INFO    Thread-618:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:03,396 INFO    Thread-618:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:03,396 INFO    Thread-618:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:06,061 INFO    Thread-618:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:06,061 INFO    Thread-618:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:06,066 INFO    Thread-618:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:06,066 INFO    Thread-618:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:06,074 INFO    Thread-618:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:06,074 INFO    Thread-618:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:06,078 INFO    Thread-618:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/ou289sbm
+2024-10-13 19:34:08,454 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:08,459 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:08,461 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:08,464 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:08,465 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'zu12mtdj', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-zu12mtdj.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:08,466 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:08,467 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:08,469 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:08,471 INFO    Thread-621:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193408-zu12mtdj/logs/debug.log
+2024-10-13 19:34:08,472 INFO    Thread-621:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193408-zu12mtdj/logs/debug-internal.log
+2024-10-13 19:34:08,474 INFO    Thread-621:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:08,475 INFO    Thread-621:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 128, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [128, 64], 'learning_rate': 0.04464889948875924, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:34:08,476 INFO    Thread-621:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:34:08,478 INFO    Thread-621:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:34:08,483 INFO    Thread-621:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:34:08,485 INFO    Thread-621:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:34:08,492 INFO    Thread-621:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 128, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [128, 64], 'learning_rate': 0.04464889948875924, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+2024-10-13 19:34:08,494 INFO    Thread-621:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:34:08,507 INFO    Thread-621:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:34:08,843 INFO    Thread-621:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:34:08,907 INFO    Thread-621:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:34:08,910 INFO    Thread-621:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:34:08,912 INFO    Thread-621:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:34:08,914 INFO    Thread-621:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:34:08,916 INFO    Thread-621:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:34:08,933 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:08,935 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:08,937 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:08,938 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:08,940 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'zu12mtdj', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-zu12mtdj.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:08,941 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:08,943 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:08,945 INFO    Thread-621:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:08,946 INFO    Thread-621:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193408-zu12mtdj/logs/debug.log
+2024-10-13 19:34:08,948 INFO    Thread-621:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193408-zu12mtdj/logs/debug-internal.log
+2024-10-13 19:34:08,951 INFO    Thread-621:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:08,952 INFO    Thread-621:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 128, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [128, 64], 'learning_rate': 0.04464889948875924, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.04464889948875924, 'activation': 'relu', 'optimizer': 'mini-batch', 'batch_size': 128, 'epochs': 100, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:08,954 INFO    Thread-621:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:09,063 INFO    Thread-621:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/zu12mtdj
+2024-10-13 19:34:09,065 INFO    Thread-621:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:09,067 INFO    Thread-621:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:09,069 INFO    Thread-621:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:12,200 INFO    Thread-621:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:12,207 INFO    Thread-621:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:12,215 INFO    Thread-621:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:12,219 INFO    Thread-621:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/zu12mtdj
+2024-10-13 19:34:14,432 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:14,436 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:14,439 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:14,441 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:14,442 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'lt9utq4z', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-lt9utq4z.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:14,444 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:14,446 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:14,448 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:14,449 INFO    Thread-624:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193414-lt9utq4z/logs/debug.log
+2024-10-13 19:34:14,451 INFO    Thread-624:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193414-lt9utq4z/logs/debug-internal.log
+2024-10-13 19:34:14,452 INFO    Thread-624:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:14,453 INFO    Thread-624:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0887139937923303, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:34:14,455 INFO    Thread-624:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:34:14,456 INFO    Thread-624:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:34:14,460 INFO    Thread-624:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:34:14,462 INFO    Thread-624:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:34:14,467 INFO    Thread-624:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0887139937923303, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+2024-10-13 19:34:14,470 INFO    Thread-624:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:34:14,484 INFO    Thread-624:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:34:14,811 INFO    Thread-624:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:34:14,874 INFO    Thread-624:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:34:14,876 INFO    Thread-624:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:34:14,877 INFO    Thread-624:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:34:14,878 INFO    Thread-624:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:34:14,880 INFO    Thread-624:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:34:14,893 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:14,894 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:14,895 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:14,897 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:14,898 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'lt9utq4z', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-lt9utq4z.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:14,899 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:14,900 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:14,902 INFO    Thread-624:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:14,903 INFO    Thread-624:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193414-lt9utq4z/logs/debug.log
+2024-10-13 19:34:14,904 INFO    Thread-624:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193414-lt9utq4z/logs/debug-internal.log
+2024-10-13 19:34:14,906 INFO    Thread-624:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:14,907 INFO    Thread-624:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0887139937923303, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [64, 32], 'learning_rate': 0.0887139937923303, 'activation': 'relu', 'optimizer': 'sgd', 'batch_size': 256, 'epochs': 100, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:14,908 INFO    Thread-624:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:15,176 INFO    Thread-624:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/lt9utq4z
+2024-10-13 19:34:15,178 INFO    Thread-624:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:15,180 INFO    Thread-624:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:15,182 INFO    Thread-624:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:18,255 INFO    Thread-624:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:18,257 INFO    Thread-624:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:18,262 INFO    Thread-624:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:18,264 INFO    Thread-624:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/lt9utq4z
+2024-10-13 19:34:20,147 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:20,151 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:20,153 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:20,155 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:20,156 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': '2wnivh0t', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-2wnivh0t.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:20,158 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:20,160 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:20,161 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:20,163 INFO    Thread-627:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193420-2wnivh0t/logs/debug.log
+2024-10-13 19:34:20,165 INFO    Thread-627:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193420-2wnivh0t/logs/debug-internal.log
+2024-10-13 19:34:20,166 INFO    Thread-627:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:20,167 INFO    Thread-627:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0988399955980252, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:34:20,169 INFO    Thread-627:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:34:20,171 INFO    Thread-627:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:34:20,175 INFO    Thread-627:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:34:20,177 INFO    Thread-627:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:34:20,184 INFO    Thread-627:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0988399955980252, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+2024-10-13 19:34:20,187 INFO    Thread-627:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:34:20,201 INFO    Thread-627:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:34:20,546 INFO    Thread-627:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:34:20,613 INFO    Thread-627:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:34:20,615 INFO    Thread-627:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:34:20,617 INFO    Thread-627:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:34:20,618 INFO    Thread-627:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:34:20,619 INFO    Thread-627:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:34:20,633 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:20,634 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:20,636 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:20,637 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:20,639 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': '2wnivh0t', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-2wnivh0t.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:20,640 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:20,641 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:20,642 INFO    Thread-627:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:20,644 INFO    Thread-627:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193420-2wnivh0t/logs/debug.log
+2024-10-13 19:34:20,645 INFO    Thread-627:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193420-2wnivh0t/logs/debug-internal.log
+2024-10-13 19:34:20,647 INFO    Thread-627:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:20,648 INFO    Thread-627:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0988399955980252, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [64, 32], 'learning_rate': 0.0988399955980252, 'activation': 'relu', 'optimizer': 'batch', 'batch_size': 64, 'epochs': 100, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:20,649 INFO    Thread-627:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:20,696 INFO    Thread-627:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/2wnivh0t
+2024-10-13 19:34:20,698 INFO    Thread-627:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:20,699 INFO    Thread-627:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:20,701 INFO    Thread-627:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:23,805 INFO    Thread-627:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:23,810 INFO    Thread-627:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:23,818 INFO    Thread-627:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:23,822 INFO    Thread-627:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/2wnivh0t
+2024-10-13 19:34:26,633 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:26,635 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:26,637 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:26,638 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:26,640 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'mknhjclf', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-mknhjclf.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:26,641 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:26,643 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:26,644 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:26,646 INFO    Thread-630:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193426-mknhjclf/logs/debug.log
+2024-10-13 19:34:26,647 INFO    Thread-630:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193426-mknhjclf/logs/debug-internal.log
+2024-10-13 19:34:26,649 INFO    Thread-630:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:26,650 INFO    Thread-630:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.05577810333446539, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:34:26,652 INFO    Thread-630:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:34:26,653 INFO    Thread-630:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:34:26,657 INFO    Thread-630:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:34:26,659 INFO    Thread-630:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:34:26,666 INFO    Thread-630:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.05577810333446539, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+2024-10-13 19:34:26,669 INFO    Thread-630:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:34:26,682 INFO    Thread-630:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:34:27,012 INFO    Thread-630:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:34:27,079 INFO    Thread-630:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:34:27,081 INFO    Thread-630:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:34:27,082 INFO    Thread-630:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:34:27,084 INFO    Thread-630:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:34:27,086 INFO    Thread-630:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:34:27,099 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:27,101 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:27,103 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:27,104 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:27,105 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'mknhjclf', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-mknhjclf.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:27,107 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:27,108 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:27,109 INFO    Thread-630:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:27,111 INFO    Thread-630:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193427-mknhjclf/logs/debug.log
+2024-10-13 19:34:27,112 INFO    Thread-630:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193427-mknhjclf/logs/debug-internal.log
+2024-10-13 19:34:27,114 INFO    Thread-630:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:27,115 INFO    Thread-630:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.05577810333446539, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [64, 32], 'learning_rate': 0.05577810333446539, 'activation': 'sigmoid', 'optimizer': 'sgd', 'batch_size': 64, 'epochs': 100, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:27,116 INFO    Thread-630:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:27,738 INFO    Thread-630:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/mknhjclf
+2024-10-13 19:34:27,740 INFO    Thread-630:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:27,741 INFO    Thread-630:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:27,743 INFO    Thread-630:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:31,117 INFO    Thread-630:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:31,122 INFO    Thread-630:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:31,129 INFO    Thread-630:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:31,133 INFO    Thread-630:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/mknhjclf
+2024-10-13 19:34:41,969 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:41,973 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:41,974 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:41,976 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:41,977 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'byp9w9a2', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-byp9w9a2.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:41,979 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:41,980 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:41,981 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:41,983 INFO    Thread-633:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193441-byp9w9a2/logs/debug.log
+2024-10-13 19:34:41,985 INFO    Thread-633:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193441-byp9w9a2/logs/debug-internal.log
+2024-10-13 19:34:41,987 INFO    Thread-633:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:41,988 INFO    Thread-633:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 128, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.010972203678751683, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:34:41,989 INFO    Thread-633:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:34:41,991 INFO    Thread-633:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:34:41,995 INFO    Thread-633:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:34:41,997 INFO    Thread-633:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:34:42,002 INFO    Thread-633:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 128, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.010972203678751683, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+2024-10-13 19:34:42,005 INFO    Thread-633:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:34:42,018 INFO    Thread-633:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:34:42,370 INFO    Thread-633:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:34:42,433 INFO    Thread-633:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:34:42,435 INFO    Thread-633:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:34:42,437 INFO    Thread-633:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:34:42,439 INFO    Thread-633:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:34:42,440 INFO    Thread-633:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:34:42,454 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:42,456 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:42,457 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:42,459 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:42,460 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'byp9w9a2', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-byp9w9a2.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:42,462 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:42,464 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:42,466 INFO    Thread-633:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:42,469 INFO    Thread-633:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193442-byp9w9a2/logs/debug.log
+2024-10-13 19:34:42,472 INFO    Thread-633:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193442-byp9w9a2/logs/debug-internal.log
+2024-10-13 19:34:42,474 INFO    Thread-633:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:42,476 INFO    Thread-633:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 128, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.010972203678751683, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.010972203678751683, 'activation': 'relu', 'optimizer': 'mini-batch', 'batch_size': 128, 'epochs': 1000, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:42,477 INFO    Thread-633:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:42,831 INFO    Thread-633:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/byp9w9a2
+2024-10-13 19:34:42,833 INFO    Thread-633:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:42,836 INFO    Thread-633:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:42,837 INFO    Thread-633:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:45,568 INFO    Thread-633:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:45,571 INFO    Thread-633:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:45,577 INFO    Thread-633:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:45,580 INFO    Thread-633:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/byp9w9a2
+2024-10-13 19:34:50,329 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:50,334 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:50,337 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:50,339 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:50,340 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'yj52nh2s', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-yj52nh2s.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:50,343 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:50,345 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:50,347 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:50,349 INFO    Thread-636:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193450-yj52nh2s/logs/debug.log
+2024-10-13 19:34:50,350 INFO    Thread-636:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193450-yj52nh2s/logs/debug-internal.log
+2024-10-13 19:34:50,352 INFO    Thread-636:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:50,353 INFO    Thread-636:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [64, 32], 'learning_rate': 0.03317228116465211, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:34:50,355 INFO    Thread-636:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:34:50,356 INFO    Thread-636:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:34:50,359 INFO    Thread-636:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:34:50,361 INFO    Thread-636:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:34:50,367 INFO    Thread-636:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [64, 32], 'learning_rate': 0.03317228116465211, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+2024-10-13 19:34:50,370 INFO    Thread-636:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:34:50,381 INFO    Thread-636:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:34:50,718 INFO    Thread-636:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:34:50,785 INFO    Thread-636:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:34:50,787 INFO    Thread-636:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:34:50,788 INFO    Thread-636:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:34:50,789 INFO    Thread-636:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:34:50,791 INFO    Thread-636:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:34:50,803 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:50,805 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:50,806 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:50,807 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:50,808 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'yj52nh2s', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-yj52nh2s.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:50,810 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:50,811 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:50,812 INFO    Thread-636:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:50,814 INFO    Thread-636:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193450-yj52nh2s/logs/debug.log
+2024-10-13 19:34:50,815 INFO    Thread-636:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193450-yj52nh2s/logs/debug-internal.log
+2024-10-13 19:34:50,816 INFO    Thread-636:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:50,817 INFO    Thread-636:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [64, 32], 'learning_rate': 0.03317228116465211, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [64, 32], 'learning_rate': 0.03317228116465211, 'activation': 'tanh', 'optimizer': 'batch', 'batch_size': 256, 'epochs': 1000, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:50,819 INFO    Thread-636:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:50,915 INFO    Thread-636:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/yj52nh2s
+2024-10-13 19:34:50,918 INFO    Thread-636:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:50,920 INFO    Thread-636:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:50,921 INFO    Thread-636:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:54,115 INFO    Thread-636:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:54,122 INFO    Thread-636:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:54,131 INFO    Thread-636:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:54,135 INFO    Thread-636:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/yj52nh2s
+2024-10-13 19:34:56,037 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:56,041 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:56,043 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:56,046 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:56,048 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'dt920mon', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-dt920mon.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:56,050 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:56,052 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:56,054 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:56,056 INFO    Thread-639:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193456-dt920mon/logs/debug.log
+2024-10-13 19:34:56,058 INFO    Thread-639:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193456-dt920mon/logs/debug-internal.log
+2024-10-13 19:34:56,059 INFO    Thread-639:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:56,061 INFO    Thread-639:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 32, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.021292981296480936, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:34:56,062 INFO    Thread-639:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:34:56,064 INFO    Thread-639:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:34:56,067 INFO    Thread-639:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:34:56,069 INFO    Thread-639:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:34:56,075 INFO    Thread-639:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 32, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.021292981296480936, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+2024-10-13 19:34:56,077 INFO    Thread-639:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:34:56,089 INFO    Thread-639:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:34:56,418 INFO    Thread-639:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:34:56,482 INFO    Thread-639:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:34:56,485 INFO    Thread-639:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:34:56,486 INFO    Thread-639:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:34:56,487 INFO    Thread-639:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:34:56,489 INFO    Thread-639:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:34:56,503 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:34:56,504 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:34:56,506 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:34:56,507 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:34:56,508 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'dt920mon', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-dt920mon.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:34:56,510 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:34:56,511 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:34:56,512 INFO    Thread-639:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:34:56,514 INFO    Thread-639:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193456-dt920mon/logs/debug.log
+2024-10-13 19:34:56,515 INFO    Thread-639:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193456-dt920mon/logs/debug-internal.log
+2024-10-13 19:34:56,516 INFO    Thread-639:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:34:56,518 INFO    Thread-639:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 32, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.021292981296480936, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.021292981296480936, 'activation': 'relu', 'optimizer': 'batch', 'batch_size': 32, 'epochs': 1000, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:34:56,519 INFO    Thread-639:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:34:56,580 INFO    Thread-639:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/dt920mon
+2024-10-13 19:34:56,582 INFO    Thread-639:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:34:56,584 INFO    Thread-639:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:34:56,586 INFO    Thread-639:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:34:59,602 INFO    Thread-639:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:34:59,609 INFO    Thread-639:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:34:59,616 INFO    Thread-639:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:34:59,619 INFO    Thread-639:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/dt920mon
+2024-10-13 19:35:01,938 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:01,942 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:01,944 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:01,945 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:01,947 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'bgkzp0jk', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-bgkzp0jk.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:01,948 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:01,950 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:01,951 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:01,953 INFO    Thread-642:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193501-bgkzp0jk/logs/debug.log
+2024-10-13 19:35:01,954 INFO    Thread-642:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193501-bgkzp0jk/logs/debug-internal.log
+2024-10-13 19:35:01,956 INFO    Thread-642:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:01,957 INFO    Thread-642:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [32, 16], 'learning_rate': 0.055028035569545254, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:35:01,958 INFO    Thread-642:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:35:01,960 INFO    Thread-642:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:35:01,964 INFO    Thread-642:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:35:01,966 INFO    Thread-642:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:35:01,972 INFO    Thread-642:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [32, 16], 'learning_rate': 0.055028035569545254, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+2024-10-13 19:35:01,975 INFO    Thread-642:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:35:01,989 INFO    Thread-642:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:35:02,328 INFO    Thread-642:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:35:02,398 INFO    Thread-642:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:35:02,400 INFO    Thread-642:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:35:02,402 INFO    Thread-642:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:35:02,404 INFO    Thread-642:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:35:02,406 INFO    Thread-642:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:35:02,422 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:02,424 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:02,426 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:02,428 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:02,430 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'bgkzp0jk', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-bgkzp0jk.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:02,432 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:02,434 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:02,436 INFO    Thread-642:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:02,439 INFO    Thread-642:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193502-bgkzp0jk/logs/debug.log
+2024-10-13 19:35:02,441 INFO    Thread-642:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193502-bgkzp0jk/logs/debug-internal.log
+2024-10-13 19:35:02,443 INFO    Thread-642:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:02,444 INFO    Thread-642:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [32, 16], 'learning_rate': 0.055028035569545254, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.055028035569545254, 'activation': 'relu', 'optimizer': 'batch', 'batch_size': 256, 'epochs': 1000, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:35:02,446 INFO    Thread-642:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:35:02,496 INFO    Thread-642:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/bgkzp0jk
+2024-10-13 19:35:02,499 INFO    Thread-642:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:35:02,501 INFO    Thread-642:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:35:02,503 INFO    Thread-642:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:35:06,298 INFO    Thread-642:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:35:06,300 INFO    Thread-642:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:35:06,304 INFO    Thread-642:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:35:06,307 INFO    Thread-642:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/bgkzp0jk
+2024-10-13 19:35:17,106 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:17,109 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:17,111 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:17,113 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:17,115 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'y0w8cf1m', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-y0w8cf1m.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:17,117 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:17,118 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:17,120 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:17,122 INFO    Thread-645:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193517-y0w8cf1m/logs/debug.log
+2024-10-13 19:35:17,123 INFO    Thread-645:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193517-y0w8cf1m/logs/debug-internal.log
+2024-10-13 19:35:17,125 INFO    Thread-645:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:17,126 INFO    Thread-645:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.07541048119682389, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:35:17,128 INFO    Thread-645:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:35:17,129 INFO    Thread-645:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:35:17,134 INFO    Thread-645:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:35:17,136 INFO    Thread-645:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:35:17,142 INFO    Thread-645:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.07541048119682389, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+2024-10-13 19:35:17,145 INFO    Thread-645:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:35:17,157 INFO    Thread-645:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:35:17,740 INFO    Thread-645:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:35:17,804 INFO    Thread-645:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:35:17,807 INFO    Thread-645:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:35:17,808 INFO    Thread-645:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:35:17,810 INFO    Thread-645:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:35:17,811 INFO    Thread-645:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:35:17,825 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:17,826 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:17,828 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:17,829 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:17,830 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'y0w8cf1m', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-y0w8cf1m.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:17,832 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:17,833 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:17,835 INFO    Thread-645:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:17,836 INFO    Thread-645:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193517-y0w8cf1m/logs/debug.log
+2024-10-13 19:35:17,837 INFO    Thread-645:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193517-y0w8cf1m/logs/debug-internal.log
+2024-10-13 19:35:17,839 INFO    Thread-645:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:17,840 INFO    Thread-645:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.07541048119682389, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.07541048119682389, 'activation': 'sigmoid', 'optimizer': 'batch', 'batch_size': 256, 'epochs': 500, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:35:17,842 INFO    Thread-645:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:35:17,982 INFO    Thread-645:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/y0w8cf1m
+2024-10-13 19:35:17,985 INFO    Thread-645:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:35:17,988 INFO    Thread-645:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:35:17,990 INFO    Thread-645:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:35:20,964 INFO    Thread-645:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:35:20,970 INFO    Thread-645:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:35:20,975 INFO    Thread-645:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:35:20,977 INFO    Thread-645:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/y0w8cf1m
+2024-10-13 19:35:24,022 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:24,025 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:24,027 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:24,028 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:24,029 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': '0kpzaejb', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-0kpzaejb.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:24,031 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:24,032 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:24,033 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:24,035 INFO    Thread-648:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193524-0kpzaejb/logs/debug.log
+2024-10-13 19:35:24,036 INFO    Thread-648:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193524-0kpzaejb/logs/debug-internal.log
+2024-10-13 19:35:24,038 INFO    Thread-648:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:24,039 INFO    Thread-648:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [32, 16], 'learning_rate': 0.04597544912430012, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:35:24,040 INFO    Thread-648:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:35:24,042 INFO    Thread-648:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:35:24,046 INFO    Thread-648:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:35:24,047 INFO    Thread-648:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:35:24,053 INFO    Thread-648:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [32, 16], 'learning_rate': 0.04597544912430012, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+2024-10-13 19:35:24,056 INFO    Thread-648:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:35:24,069 INFO    Thread-648:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:35:24,436 INFO    Thread-648:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:35:24,500 INFO    Thread-648:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:35:24,502 INFO    Thread-648:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:35:24,504 INFO    Thread-648:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:35:24,505 INFO    Thread-648:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:35:24,507 INFO    Thread-648:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:35:24,519 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:24,521 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:24,522 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:24,523 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:24,525 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': '0kpzaejb', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-0kpzaejb.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:24,526 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:24,527 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:24,529 INFO    Thread-648:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:24,530 INFO    Thread-648:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193524-0kpzaejb/logs/debug.log
+2024-10-13 19:35:24,531 INFO    Thread-648:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193524-0kpzaejb/logs/debug-internal.log
+2024-10-13 19:35:24,533 INFO    Thread-648:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:24,534 INFO    Thread-648:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [32, 16], 'learning_rate': 0.04597544912430012, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.04597544912430012, 'activation': 'sigmoid', 'optimizer': 'sgd', 'batch_size': 256, 'epochs': 1000, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:35:24,536 INFO    Thread-648:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:35:24,909 INFO    Thread-648:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/0kpzaejb
+2024-10-13 19:35:24,911 INFO    Thread-648:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:35:24,912 INFO    Thread-648:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:35:24,914 INFO    Thread-648:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:35:28,332 INFO    Thread-648:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:35:28,339 INFO    Thread-648:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:35:28,343 INFO    Thread-648:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:35:28,345 INFO    Thread-648:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/0kpzaejb
+2024-10-13 19:35:39,201 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:39,206 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:39,209 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:39,212 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:39,215 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'uh279rpu', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-uh279rpu.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:39,217 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:39,219 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:39,221 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:39,222 INFO    Thread-651:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193539-uh279rpu/logs/debug.log
+2024-10-13 19:35:39,224 INFO    Thread-651:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193539-uh279rpu/logs/debug-internal.log
+2024-10-13 19:35:39,225 INFO    Thread-651:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:39,227 INFO    Thread-651:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.060102166016633325, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:35:39,228 INFO    Thread-651:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:35:39,229 INFO    Thread-651:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:35:39,234 INFO    Thread-651:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:35:39,236 INFO    Thread-651:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:35:39,242 INFO    Thread-651:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.060102166016633325, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+2024-10-13 19:35:39,244 INFO    Thread-651:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:35:39,258 INFO    Thread-651:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:35:40,846 INFO    Thread-651:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:35:40,911 INFO    Thread-651:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:35:40,913 INFO    Thread-651:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:35:40,916 INFO    Thread-651:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:35:40,918 INFO    Thread-651:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:35:40,920 INFO    Thread-651:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:35:40,936 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:40,938 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:40,940 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:40,941 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:40,943 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'uh279rpu', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-uh279rpu.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:40,944 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:40,946 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:40,947 INFO    Thread-651:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:40,949 INFO    Thread-651:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193540-uh279rpu/logs/debug.log
+2024-10-13 19:35:40,951 INFO    Thread-651:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193540-uh279rpu/logs/debug-internal.log
+2024-10-13 19:35:40,952 INFO    Thread-651:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:40,954 INFO    Thread-651:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 64, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.060102166016633325, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.060102166016633325, 'activation': 'sigmoid', 'optimizer': 'mini-batch', 'batch_size': 64, 'epochs': 1000, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:35:40,955 INFO    Thread-651:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:35:41,075 INFO    Thread-651:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/uh279rpu
+2024-10-13 19:35:41,078 INFO    Thread-651:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:35:41,080 INFO    Thread-651:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:35:41,081 INFO    Thread-651:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:35:44,233 INFO    Thread-651:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:35:44,237 INFO    Thread-651:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:35:44,245 INFO    Thread-651:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:35:44,249 INFO    Thread-651:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/uh279rpu
+2024-10-13 19:35:46,098 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:46,103 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:46,106 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:46,109 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:46,112 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'oxpc92lj', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-oxpc92lj.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:46,114 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:46,115 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:46,117 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:46,118 INFO    Thread-654:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193546-oxpc92lj/logs/debug.log
+2024-10-13 19:35:46,120 INFO    Thread-654:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193546-oxpc92lj/logs/debug-internal.log
+2024-10-13 19:35:46,121 INFO    Thread-654:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:46,122 INFO    Thread-654:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.021621742206099, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:35:46,124 INFO    Thread-654:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:35:46,126 INFO    Thread-654:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:35:46,130 INFO    Thread-654:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:35:46,131 INFO    Thread-654:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:35:46,137 INFO    Thread-654:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.021621742206099, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+2024-10-13 19:35:46,140 INFO    Thread-654:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:35:46,152 INFO    Thread-654:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:35:46,487 INFO    Thread-654:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:35:46,555 INFO    Thread-654:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:35:46,558 INFO    Thread-654:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:35:46,559 INFO    Thread-654:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:35:46,561 INFO    Thread-654:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:35:46,562 INFO    Thread-654:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:35:46,575 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:46,577 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:46,578 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:46,579 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:46,581 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'oxpc92lj', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-oxpc92lj.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:46,582 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:46,584 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:46,585 INFO    Thread-654:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:46,586 INFO    Thread-654:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193546-oxpc92lj/logs/debug.log
+2024-10-13 19:35:46,588 INFO    Thread-654:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193546-oxpc92lj/logs/debug-internal.log
+2024-10-13 19:35:46,589 INFO    Thread-654:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:46,590 INFO    Thread-654:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.021621742206099, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.021621742206099, 'activation': 'sigmoid', 'optimizer': 'mini-batch', 'batch_size': 256, 'epochs': 500, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:35:46,592 INFO    Thread-654:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:35:46,687 INFO    Thread-654:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/oxpc92lj
+2024-10-13 19:35:46,690 INFO    Thread-654:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:35:46,692 INFO    Thread-654:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:35:46,694 INFO    Thread-654:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:35:49,677 INFO    Thread-654:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:35:49,683 INFO    Thread-654:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:35:49,688 INFO    Thread-654:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:35:49,690 INFO    Thread-654:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/oxpc92lj
+2024-10-13 19:35:51,507 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:51,510 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:51,513 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:51,514 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:51,516 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'wldw393s', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-wldw393s.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:51,517 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:51,518 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:51,520 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:51,521 INFO    Thread-657:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193551-wldw393s/logs/debug.log
+2024-10-13 19:35:51,523 INFO    Thread-657:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193551-wldw393s/logs/debug-internal.log
+2024-10-13 19:35:51,524 INFO    Thread-657:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:51,526 INFO    Thread-657:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 128, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [128, 64], 'learning_rate': 0.053554474981010576, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:35:51,527 INFO    Thread-657:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:35:51,529 INFO    Thread-657:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:35:51,532 INFO    Thread-657:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:35:51,535 INFO    Thread-657:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:35:51,540 INFO    Thread-657:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'sigmoid', 'batch_size': 128, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [128, 64], 'learning_rate': 0.053554474981010576, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+2024-10-13 19:35:51,543 INFO    Thread-657:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:35:51,557 INFO    Thread-657:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:35:51,890 INFO    Thread-657:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:35:51,958 INFO    Thread-657:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:35:51,960 INFO    Thread-657:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:35:51,961 INFO    Thread-657:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:35:51,963 INFO    Thread-657:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:35:51,964 INFO    Thread-657:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:35:51,977 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:51,979 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:51,980 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:51,982 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:51,983 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'wldw393s', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-wldw393s.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:51,985 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:51,986 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:51,988 INFO    Thread-657:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:51,989 INFO    Thread-657:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193551-wldw393s/logs/debug.log
+2024-10-13 19:35:51,991 INFO    Thread-657:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193551-wldw393s/logs/debug-internal.log
+2024-10-13 19:35:51,992 INFO    Thread-657:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:51,993 INFO    Thread-657:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'sigmoid', 'batch_size': 128, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [128, 64], 'learning_rate': 0.053554474981010576, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.053554474981010576, 'activation': 'sigmoid', 'optimizer': 'batch', 'batch_size': 128, 'epochs': 100, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:35:51,995 INFO    Thread-657:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:35:52,169 INFO    Thread-657:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/wldw393s
+2024-10-13 19:35:52,171 INFO    Thread-657:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:35:52,173 INFO    Thread-657:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:35:52,175 INFO    Thread-657:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:35:55,060 INFO    Thread-657:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:35:55,066 INFO    Thread-657:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:35:55,070 INFO    Thread-657:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:35:55,072 INFO    Thread-657:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/wldw393s
+2024-10-13 19:35:57,262 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:57,267 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:57,270 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:57,272 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:57,274 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'fjg4vfg4', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-fjg4vfg4.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:57,276 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:57,277 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:57,279 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:57,280 INFO    Thread-660:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193557-fjg4vfg4/logs/debug.log
+2024-10-13 19:35:57,281 INFO    Thread-660:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193557-fjg4vfg4/logs/debug-internal.log
+2024-10-13 19:35:57,283 INFO    Thread-660:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:57,284 INFO    Thread-660:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0024309000859577177, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:35:57,286 INFO    Thread-660:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:35:57,287 INFO    Thread-660:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:35:57,291 INFO    Thread-660:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:35:57,293 INFO    Thread-660:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:35:57,298 INFO    Thread-660:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0024309000859577177, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+2024-10-13 19:35:57,301 INFO    Thread-660:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:35:57,314 INFO    Thread-660:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:35:57,650 INFO    Thread-660:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:35:57,713 INFO    Thread-660:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:35:57,716 INFO    Thread-660:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:35:57,717 INFO    Thread-660:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:35:57,719 INFO    Thread-660:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:35:57,720 INFO    Thread-660:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:35:57,735 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:35:57,736 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:35:57,738 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:35:57,739 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:35:57,741 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'fjg4vfg4', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-fjg4vfg4.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:35:57,742 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:35:57,744 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:35:57,745 INFO    Thread-660:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:35:57,746 INFO    Thread-660:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193557-fjg4vfg4/logs/debug.log
+2024-10-13 19:35:57,748 INFO    Thread-660:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193557-fjg4vfg4/logs/debug-internal.log
+2024-10-13 19:35:57,749 INFO    Thread-660:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:35:57,751 INFO    Thread-660:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 64, 'early_stopping': True, 'epochs': 100, 'hidden_layers': [64, 32], 'learning_rate': 0.0024309000859577177, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'sgd'}
+config: {'hidden_layers': [64, 32], 'learning_rate': 0.0024309000859577177, 'activation': 'relu', 'optimizer': 'sgd', 'batch_size': 64, 'epochs': 100, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:35:57,752 INFO    Thread-660:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:35:58,059 INFO    Thread-660:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/fjg4vfg4
+2024-10-13 19:35:58,062 INFO    Thread-660:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:35:58,064 INFO    Thread-660:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:35:58,066 INFO    Thread-660:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:36:00,830 INFO    Thread-660:85748 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:36:00,835 INFO    Thread-660:85748 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:36:00,913 INFO    Thread-660:85748 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:36:00,916 INFO    Thread-660:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/fjg4vfg4
+2024-10-13 19:36:03,236 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:36:03,241 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:36:03,244 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:36:03,246 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:36:03,247 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'cjpbo226', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-cjpbo226.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:36:03,249 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:36:03,250 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:36:03,251 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:36:03,253 INFO    Thread-663:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193603-cjpbo226/logs/debug.log
+2024-10-13 19:36:03,254 INFO    Thread-663:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193603-cjpbo226/logs/debug-internal.log
+2024-10-13 19:36:03,256 INFO    Thread-663:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:36:03,257 INFO    Thread-663:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 32, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [64, 32], 'learning_rate': 0.06236571188604458, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'mse', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'regressor', 'early_stopping': True}
+2024-10-13 19:36:03,259 INFO    Thread-663:85748 [wandb_init.py:init():667] starting backend
+2024-10-13 19:36:03,260 INFO    Thread-663:85748 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:36:03,264 INFO    Thread-663:85748 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:36:03,266 INFO    Thread-663:85748 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:36:03,272 INFO    Thread-663:85748 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 32, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [64, 32], 'learning_rate': 0.06236571188604458, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+2024-10-13 19:36:03,275 INFO    Thread-663:85748 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:36:03,287 INFO    Thread-663:85748 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:36:03,728 INFO    Thread-663:85748 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:36:03,792 INFO    Thread-663:85748 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:36:03,794 INFO    Thread-663:85748 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:36:03,796 INFO    Thread-663:85748 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:36:03,797 INFO    Thread-663:85748 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:36:03,799 INFO    Thread-663:85748 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:36:03,812 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:36:03,813 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Configure stats pid to 85748
+2024-10-13 19:36:03,815 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:36:03,816 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:36:03,818 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Regressor_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'cjpbo226', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-i22xojk2/config-cjpbo226.yaml', 'sweep_id': 'i22xojk2'}
+2024-10-13 19:36:03,819 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:36:03,821 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/regressor_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/regressor_hyperparameter.py', 'program': 'regressor_hyperparameter.py'}
+2024-10-13 19:36:03,823 INFO    Thread-663:85748 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:36:03,824 INFO    Thread-663:85748 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193603-cjpbo226/logs/debug.log
+2024-10-13 19:36:03,825 INFO    Thread-663:85748 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193603-cjpbo226/logs/debug-internal.log
+2024-10-13 19:36:03,827 INFO    Thread-663:85748 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:36:03,828 INFO    Thread-663:85748 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 32, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [64, 32], 'learning_rate': 0.06236571188604458, 'loss_func': 'mse', 'model': 'regressor', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [64, 32], 'learning_rate': 0.06236571188604458, 'activation': 'relu', 'optimizer': 'mini-batch', 'batch_size': 32, 'epochs': 1000, 'model': 'regressor', 'loss_func': 'mse'}
+2024-10-13 19:36:03,830 INFO    Thread-663:85748 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:36:04,049 INFO    Thread-663:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/cjpbo226
+2024-10-13 19:36:04,051 INFO    Thread-663:85748 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:36:04,053 INFO    Thread-663:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:36:04,055 INFO    Thread-663:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:36:05,869 INFO    Thread-663:85748 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:36:05,875 INFO    Thread-663:85748 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:36:05,878 ERROR   Thread-663:85748 [wandb_run.py:_atexit_cleanup():2449] Problem finishing run
+Traceback (most recent call last):
+  File "/home/samkit/anaconda3/envs/normal/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2440, in _atexit_cleanup
+    self._on_finish()
+  File "/home/samkit/anaconda3/envs/normal/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2682, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "/home/samkit/anaconda3/envs/normal/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/samkit/anaconda3/envs/normal/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/samkit/anaconda3/envs/normal/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/samkit/anaconda3/envs/normal/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/samkit/anaconda3/envs/normal/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception
+2024-10-13 19:36:05,884 INFO    Thread-663:85748 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Regressor_hyperparametrs/cjpbo226
+2024-10-13 19:36:05,928 WARNING MsgRouterThr:85748 [router.py:message_loop():77] message_loop has been closed

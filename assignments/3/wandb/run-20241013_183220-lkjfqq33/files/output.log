@@ -1,0 +1,4 @@
+<models.MLP.mlp_wandb.MLPW object at 0x734e1dece640>
+[11, 32, 16, 6]
+Training:  47%|███████████████████████████████████████████████████████████████▍                                                                       | 47/100 [00:00<00:00, 222.62epoch/s]
+Early stopping at epoch 47

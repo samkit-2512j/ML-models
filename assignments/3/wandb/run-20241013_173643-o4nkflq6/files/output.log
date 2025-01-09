@@ -1,0 +1,7 @@
+Training with config: {'learning_rate': 0.001, 'hidden_layers': [64, 32], 'activation': <class 'models.MLP.activations.relu'>, 'epochs': 100, 'optimizer': 'sgd', 'batch_size': 32}
+Traceback (most recent call last):
+  File "hyperparameter_mc.py", line 110, in <module>
+    val_accuracy = train_and_log_model(config)
+  File "hyperparameter_mc.py", line 86, in train_and_log_model
+    model.fit(X_train, y_train, X_val, y_val, log_wandb=True)
+TypeError: fit() missing 1 required positional argument: 'output_size'

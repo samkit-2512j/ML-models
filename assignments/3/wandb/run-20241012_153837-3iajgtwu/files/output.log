@@ -1,0 +1,3 @@
+[9, 20, 20, 8]
+Training:   5%|██████▏                                                                                                                               | 46/1000 [00:00<00:04, 203.27epoch/s]
+Early stopping at epoch 46

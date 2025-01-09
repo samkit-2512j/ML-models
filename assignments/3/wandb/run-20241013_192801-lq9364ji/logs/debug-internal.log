@@ -1,0 +1,18 @@
+{"time":"2024-10-13T19:28:01.107919442+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:28:01.107932892+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_192801-lq9364ji/logs/debug-core.log"}
+{"time":"2024-10-13T19:28:01.113290837+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:28:01.117420925+05:30","level":"INFO","msg":"created new stream","id":"lq9364ji"}
+{"time":"2024-10-13T19:28:01.117440332+05:30","level":"INFO","msg":"stream: started","id":"lq9364ji"}
+{"time":"2024-10-13T19:28:01.117455361+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"lq9364ji"}}
+{"time":"2024-10-13T19:28:01.117475399+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"lq9364ji"}}
+{"time":"2024-10-13T19:28:01.117488469+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lq9364ji"}}
+{"time":"2024-10-13T19:28:01.461859341+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:28:01.462670511+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:28:01.631913758+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:28:01.633771564+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:28:03.400335977+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:28:04.7723702+05:30","level":"INFO","msg":"stream: closing","id":"lq9364ji"}
+{"time":"2024-10-13T19:28:04.772392093+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"lq9364ji"}}
+{"time":"2024-10-13T19:28:04.772420407+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lq9364ji"}}
+{"time":"2024-10-13T19:28:04.772469513+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"lq9364ji"}}
+{"time":"2024-10-13T19:28:04.772611991+05:30","level":"INFO","msg":"stream: closed","id":"lq9364ji"}

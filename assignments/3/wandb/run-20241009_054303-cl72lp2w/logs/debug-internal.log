@@ -1,0 +1,19 @@
+{"time":"2024-10-09T05:43:03.160455909+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T05:43:03.160468443+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241009_054303-cl72lp2w/logs/debug-core.log"}
+{"time":"2024-10-09T05:43:03.165439801+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T05:43:03.172825581+05:30","level":"INFO","msg":"created new stream","id":"cl72lp2w"}
+{"time":"2024-10-09T05:43:03.172848455+05:30","level":"INFO","msg":"stream: started","id":"cl72lp2w"}
+{"time":"2024-10-09T05:43:03.172879744+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"cl72lp2w"}}
+{"time":"2024-10-09T05:43:03.172915396+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"cl72lp2w"}}
+{"time":"2024-10-09T05:43:03.172914703+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"cl72lp2w"}}
+{"time":"2024-10-09T05:43:03.682163496+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T05:43:03.682567697+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T05:43:04.023323416+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T05:43:04.025023613+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T05:43:08.158497772+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T05:43:09.025187826+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
+{"time":"2024-10-09T05:43:09.658965963+05:30","level":"INFO","msg":"stream: closing","id":"cl72lp2w"}
+{"time":"2024-10-09T05:43:09.65898064+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"cl72lp2w"}}
+{"time":"2024-10-09T05:43:09.659001586+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"cl72lp2w"}}
+{"time":"2024-10-09T05:43:09.659038049+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"cl72lp2w"}}
+{"time":"2024-10-09T05:43:09.659043882+05:30","level":"INFO","msg":"stream: closed","id":"cl72lp2w"}

@@ -1,0 +1,3 @@
+Training with config: {'learning_rate': 0.001, 'hidden_layers': [64, 32], 'activation': <class 'models.MLP.activations.relu'>, 'epochs': 100, 'optimizer': 'sgd', 'batch_size': 32}
+[11, 64, 32, 6]
+Training: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:06<00:00, 15.98epoch/s]

@@ -1,0 +1,19 @@
+{"time":"2024-10-13T18:06:00.9059438+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:06:00.905956581+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_180600-bkel4lg1/logs/debug-core.log"}
+{"time":"2024-10-13T18:06:00.90605007+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:06:00.908559799+05:30","level":"INFO","msg":"created new stream","id":"bkel4lg1"}
+{"time":"2024-10-13T18:06:00.908574219+05:30","level":"INFO","msg":"stream: started","id":"bkel4lg1"}
+{"time":"2024-10-13T18:06:00.908601709+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bkel4lg1"}}
+{"time":"2024-10-13T18:06:00.908607154+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"bkel4lg1"}}
+{"time":"2024-10-13T18:06:00.908714752+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"bkel4lg1"}}
+{"time":"2024-10-13T18:06:01.308269767+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:06:01.308488165+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:06:09.120490946+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:06:09.121689974+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:06:10.705699824+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:06:12.282574497+05:30","level":"INFO","msg":"stream: closing","id":"bkel4lg1"}
+{"time":"2024-10-13T18:06:12.28260378+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"bkel4lg1"}}
+{"time":"2024-10-13T18:06:12.28263096+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"bkel4lg1"}}
+{"time":"2024-10-13T18:06:12.282715911+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"bkel4lg1"}}
+{"time":"2024-10-13T18:06:12.282726093+05:30","level":"INFO","msg":"stream: closed","id":"bkel4lg1"}
+{"time":"2024-10-13T18:06:14.121627661+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

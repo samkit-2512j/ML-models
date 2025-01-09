@@ -1,0 +1,4 @@
+<models.MLP.mlp_wandb.MLPW object at 0x734e1f314760>
+[11, 64, 32, 6]
+Training:  40%|█████████████████████████████████████████████████████▋                                                                               | 404/1000 [00:03<00:04, 122.04epoch/s]
+Early stopping at epoch 404

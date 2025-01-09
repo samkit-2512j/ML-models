@@ -1,0 +1,6 @@
+<models.MLP.mlp_wandb.MLPW object at 0x7b2c7c44cfa0>
+[13, 64, 32, 1]
+Training:   8%|█████████▊                                                                                                                 | 8/100 [00:00<00:02, 30.96epoch/s]/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/activations.py:8: RuntimeWarning: overflow encountered in exp
+  return 1 / (1 + np.exp(-x))
+Early stopping at epoch 10
+Training:  10%|████████████▏                                                                                                             | 10/100 [00:00<00:03, 29.29epoch/s]

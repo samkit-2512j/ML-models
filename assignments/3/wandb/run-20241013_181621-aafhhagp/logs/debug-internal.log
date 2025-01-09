@@ -1,0 +1,19 @@
+{"time":"2024-10-13T18:16:21.485045846+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:16:21.485068253+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_181621-aafhhagp/logs/debug-core.log"}
+{"time":"2024-10-13T18:16:21.485205221+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:16:21.489066527+05:30","level":"INFO","msg":"created new stream","id":"aafhhagp"}
+{"time":"2024-10-13T18:16:21.489092037+05:30","level":"INFO","msg":"stream: started","id":"aafhhagp"}
+{"time":"2024-10-13T18:16:21.489123237+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"aafhhagp"}}
+{"time":"2024-10-13T18:16:21.489156687+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"aafhhagp"}}
+{"time":"2024-10-13T18:16:21.48915455+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"aafhhagp"}}
+{"time":"2024-10-13T18:16:21.891836238+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:16:21.891995759+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:16:22.653933019+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:16:22.656403693+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:16:24.028641634+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:16:25.382055689+05:30","level":"INFO","msg":"stream: closing","id":"aafhhagp"}
+{"time":"2024-10-13T18:16:25.382091676+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"aafhhagp"}}
+{"time":"2024-10-13T18:16:25.38212954+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"aafhhagp"}}
+{"time":"2024-10-13T18:16:25.382209306+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"aafhhagp"}}
+{"time":"2024-10-13T18:16:25.382282053+05:30","level":"INFO","msg":"stream: closed","id":"aafhhagp"}
+{"time":"2024-10-13T18:16:27.657146936+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

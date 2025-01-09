@@ -1,0 +1,19 @@
+{"time":"2024-10-13T19:30:56.481218483+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:30:56.481227981+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_193056-ejclsogm/logs/debug-core.log"}
+{"time":"2024-10-13T19:30:56.492593826+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:30:56.495532371+05:30","level":"INFO","msg":"created new stream","id":"ejclsogm"}
+{"time":"2024-10-13T19:30:56.495546248+05:30","level":"INFO","msg":"stream: started","id":"ejclsogm"}
+{"time":"2024-10-13T19:30:56.495561161+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ejclsogm"}}
+{"time":"2024-10-13T19:30:56.495606427+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ejclsogm"}}
+{"time":"2024-10-13T19:30:56.495650424+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ejclsogm"}}
+{"time":"2024-10-13T19:30:56.949529171+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:30:56.950154816+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:30:57.107182449+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:30:57.108590172+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:30:59.524624968+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:31:00.995127201+05:30","level":"INFO","msg":"stream: closing","id":"ejclsogm"}
+{"time":"2024-10-13T19:31:00.995140118+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"ejclsogm"}}
+{"time":"2024-10-13T19:31:00.995157698+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ejclsogm"}}
+{"time":"2024-10-13T19:31:00.99519057+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"ejclsogm"}}
+{"time":"2024-10-13T19:31:00.995195212+05:30","level":"INFO","msg":"stream: closed","id":"ejclsogm"}
+{"time":"2024-10-13T19:31:02.109053081+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

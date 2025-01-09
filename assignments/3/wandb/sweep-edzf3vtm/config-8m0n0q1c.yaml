@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activations:
+  value: tanh
+batch_size:
+  value: 128
+early_stopping:
+  value: true
+epochs:
+  value: 1000
+hidden_layers:
+  value:
+  - 128
+  - 64
+learning_rate:
+  value: 0.07621773131550245
+loss_func:
+  value: cce
+model:
+  value: classifier
+optimizer:
+  value: batch

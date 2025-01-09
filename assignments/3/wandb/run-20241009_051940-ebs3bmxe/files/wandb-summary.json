@@ -1,0 +1,1 @@
+{"train_loss":0.16107881462204027,"val_loss":3.213062242318071,"activation":"relu","val_recall":0,"hidden_layers":[128,64,32],"train_precision":0.0004616805170821791,"batch_size":32,"optimizer":"sgd","train_recall":0.05555555555555555,"learning_rate":0.01,"_timestamp":1.728431386429046e+09,"val_precision":0,"_step":0,"epochs":100,"_runtime":5.785404275,"_wandb":{"runtime":5}}

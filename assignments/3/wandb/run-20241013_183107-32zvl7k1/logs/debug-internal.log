@@ -1,0 +1,20 @@
+{"time":"2024-10-13T18:31:07.616798691+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:31:07.616813826+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_183107-32zvl7k1/logs/debug-core.log"}
+{"time":"2024-10-13T18:31:07.61951013+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:31:07.623849469+05:30","level":"INFO","msg":"created new stream","id":"32zvl7k1"}
+{"time":"2024-10-13T18:31:07.623867783+05:30","level":"INFO","msg":"stream: started","id":"32zvl7k1"}
+{"time":"2024-10-13T18:31:07.623886322+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"32zvl7k1"}}
+{"time":"2024-10-13T18:31:07.623936412+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"32zvl7k1"}}
+{"time":"2024-10-13T18:31:07.623910519+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"32zvl7k1"}}
+{"time":"2024-10-13T18:31:07.973636378+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:31:07.974055751+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:31:08.907790954+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:31:08.909259214+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:31:09.178946651+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-13T18:31:09.178970292+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-13T18:31:09.882571794+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:31:11.247308288+05:30","level":"INFO","msg":"stream: closing","id":"32zvl7k1"}
+{"time":"2024-10-13T18:31:11.247328393+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"32zvl7k1"}}
+{"time":"2024-10-13T18:31:11.247346269+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"32zvl7k1"}}
+{"time":"2024-10-13T18:31:11.247398552+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"32zvl7k1"}}
+{"time":"2024-10-13T18:31:11.247506396+05:30","level":"INFO","msg":"stream: closed","id":"32zvl7k1"}

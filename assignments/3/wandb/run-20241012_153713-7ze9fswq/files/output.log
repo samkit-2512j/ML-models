@@ -1,0 +1,8 @@
+[9, 20, 20, 8]
+Training:   0%|                                                                                                                                                | 0/1000 [00:00<?, ?epoch/s]
+Traceback (most recent call last):
+  File "check_Advertisements.py", line 85, in <module>
+    mlp.fit(X_train,y_train, X_val, y_val, len(unique_list), log_wandb=True)
+  File "/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py", line 231, in fit
+    train_acc = self.multi_label_accuracy(y,y_pred)
+TypeError: multi_label_accuracy() takes 2 positional arguments but 3 were given

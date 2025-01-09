@@ -1,0 +1,19 @@
+{"time":"2024-10-09T05:47:06.039527257+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T05:47:06.039536231+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241009_054706-byw6671t/logs/debug-core.log"}
+{"time":"2024-10-09T05:47:06.046469715+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T05:47:06.050047322+05:30","level":"INFO","msg":"created new stream","id":"byw6671t"}
+{"time":"2024-10-09T05:47:06.050062657+05:30","level":"INFO","msg":"stream: started","id":"byw6671t"}
+{"time":"2024-10-09T05:47:06.050077939+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"byw6671t"}}
+{"time":"2024-10-09T05:47:06.050127233+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"byw6671t"}}
+{"time":"2024-10-09T05:47:06.050209977+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"byw6671t"}}
+{"time":"2024-10-09T05:47:06.674883264+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T05:47:06.675405404+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T05:47:07.427473577+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T05:47:07.429375517+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T05:47:09.61416835+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T05:47:11.155975498+05:30","level":"INFO","msg":"stream: closing","id":"byw6671t"}
+{"time":"2024-10-09T05:47:11.155993041+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"byw6671t"}}
+{"time":"2024-10-09T05:47:11.156021941+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"byw6671t"}}
+{"time":"2024-10-09T05:47:11.156059645+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"byw6671t"}}
+{"time":"2024-10-09T05:47:11.15620209+05:30","level":"INFO","msg":"stream: closed","id":"byw6671t"}
+{"time":"2024-10-09T05:47:12.429684502+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activations:
+  value: sigmoid
+batch_size:
+  value: 256
+early_stopping:
+  value: true
+epochs:
+  value: 500
+hidden_layers:
+  value:
+  - 32
+  - 16
+learning_rate:
+  value: 0.09497674636503488
+loss_func:
+  value: mse
+model:
+  value: regressor
+optimizer:
+  value: sgd

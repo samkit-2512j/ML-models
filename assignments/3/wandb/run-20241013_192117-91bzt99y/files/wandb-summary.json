@@ -1,0 +1,1 @@
+{"epoch":10,"train_R2_Score":NaN,"val_R2_Score":NaN,"_runtime":0.926460488,"_timestamp":1.728827477962074e+09,"_wandb":{"runtime":0},"val_RMSE_loss":NaN,"_step":10,"val_MSE_loss":NaN,"train_MSE_loss":NaN,"train_RMSE_loss":NaN}

@@ -1,0 +1,19 @@
+{"time":"2024-10-13T18:53:47.68594302+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:53:47.685954108+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_185347-ui3tkpob/logs/debug-core.log"}
+{"time":"2024-10-13T18:53:47.69479508+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:53:47.698801864+05:30","level":"INFO","msg":"created new stream","id":"ui3tkpob"}
+{"time":"2024-10-13T18:53:47.698821627+05:30","level":"INFO","msg":"stream: started","id":"ui3tkpob"}
+{"time":"2024-10-13T18:53:47.698839878+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ui3tkpob"}}
+{"time":"2024-10-13T18:53:47.698893104+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ui3tkpob"}}
+{"time":"2024-10-13T18:53:47.698987904+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ui3tkpob"}}
+{"time":"2024-10-13T18:53:48.075006125+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:53:48.07575202+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:53:51.089639501+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:53:51.090979394+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:53:52.951505608+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:53:54.345243909+05:30","level":"INFO","msg":"stream: closing","id":"ui3tkpob"}
+{"time":"2024-10-13T18:53:54.345284567+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"ui3tkpob"}}
+{"time":"2024-10-13T18:53:54.345326966+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ui3tkpob"}}
+{"time":"2024-10-13T18:53:54.345413312+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"ui3tkpob"}}
+{"time":"2024-10-13T18:53:54.345494646+05:30","level":"INFO","msg":"stream: closed","id":"ui3tkpob"}
+{"time":"2024-10-13T18:53:56.092021754+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

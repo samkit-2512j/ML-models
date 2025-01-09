@@ -1,0 +1,19 @@
+{"time":"2024-10-09T05:01:54.13658491+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T05:01:54.136594688+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241009_050154-neu2p3hb/logs/debug-core.log"}
+{"time":"2024-10-09T05:01:54.143605614+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T05:01:54.14731438+05:30","level":"INFO","msg":"created new stream","id":"neu2p3hb"}
+{"time":"2024-10-09T05:01:54.147328411+05:30","level":"INFO","msg":"stream: started","id":"neu2p3hb"}
+{"time":"2024-10-09T05:01:54.147343901+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"neu2p3hb"}}
+{"time":"2024-10-09T05:01:54.14738388+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"neu2p3hb"}}
+{"time":"2024-10-09T05:01:54.147400826+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"neu2p3hb"}}
+{"time":"2024-10-09T05:01:54.720097241+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T05:01:54.72084533+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T05:01:57.842950573+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T05:01:57.844496519+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T05:02:02.684478243+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T05:02:02.845039986+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
+{"time":"2024-10-09T05:02:04.168058727+05:30","level":"INFO","msg":"stream: closing","id":"neu2p3hb"}
+{"time":"2024-10-09T05:02:04.168085037+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"neu2p3hb"}}
+{"time":"2024-10-09T05:02:04.168119751+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"neu2p3hb"}}
+{"time":"2024-10-09T05:02:04.168179679+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"neu2p3hb"}}
+{"time":"2024-10-09T05:02:04.168259289+05:30","level":"INFO","msg":"stream: closed","id":"neu2p3hb"}

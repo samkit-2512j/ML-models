@@ -1,0 +1,3 @@
+[12, 128, 64, 32, 6]
+Training:  10%|█████████████▌                                                                                                                          | 10/100 [00:01<00:09,  9.36epoch/s]
+Early stopping at epoch 10

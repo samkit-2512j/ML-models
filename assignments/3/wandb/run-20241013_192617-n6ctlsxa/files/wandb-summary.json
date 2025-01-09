@@ -1,0 +1,1 @@
+{"_timestamp":1.728827778405532e+09,"val_R2_Score":3.981257624234857e+15,"val_RMSE_loss":9.541585707210863e+07,"_runtime":0.552846834,"train_MSE_loss":9.572436092946176e+15,"_wandb":{"runtime":0},"val_MSE_loss":9.104185780805062e+15,"train_R2_Score":4.9757016566399176e+16,"train_RMSE_loss":9.783882712372515e+07,"_step":10,"epoch":10}

@@ -1,0 +1,19 @@
+{"time":"2024-10-09T05:39:35.175945598+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T05:39:35.175955345+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241009_053935-pl46gbaf/logs/debug-core.log"}
+{"time":"2024-10-09T05:39:35.181788482+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T05:39:35.186539565+05:30","level":"INFO","msg":"created new stream","id":"pl46gbaf"}
+{"time":"2024-10-09T05:39:35.186561621+05:30","level":"INFO","msg":"stream: started","id":"pl46gbaf"}
+{"time":"2024-10-09T05:39:35.186582185+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"pl46gbaf"}}
+{"time":"2024-10-09T05:39:35.186642362+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pl46gbaf"}}
+{"time":"2024-10-09T05:39:35.186712507+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"pl46gbaf"}}
+{"time":"2024-10-09T05:39:35.803678991+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T05:39:35.804428086+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T05:39:37.238066142+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T05:39:37.239956266+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T05:39:39.572824945+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T05:39:41.041258264+05:30","level":"INFO","msg":"stream: closing","id":"pl46gbaf"}
+{"time":"2024-10-09T05:39:41.041274228+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"pl46gbaf"}}
+{"time":"2024-10-09T05:39:41.041291964+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"pl46gbaf"}}
+{"time":"2024-10-09T05:39:41.041324172+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"pl46gbaf"}}
+{"time":"2024-10-09T05:39:41.041328273+05:30","level":"INFO","msg":"stream: closed","id":"pl46gbaf"}
+{"time":"2024-10-09T05:39:42.240263204+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

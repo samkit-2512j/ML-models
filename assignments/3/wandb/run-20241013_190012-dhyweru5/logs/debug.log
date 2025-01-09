@@ -1,0 +1,116 @@
+2024-10-13 19:00:12,176 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:00:12,178 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Configure stats pid to 74711
+2024-10-13 19:00:12,180 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:00:12,181 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:00:12,182 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Multi-Label_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'dhyweru5', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-vs7donsv/config-dhyweru5.yaml', 'sweep_id': 'vs7donsv'}
+2024-10-13 19:00:12,183 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:00:12,184 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/multi_label_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/multi_label_hyperparameter.py', 'program': 'multi_label_hyperparameter.py'}
+2024-10-13 19:00:12,186 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:00:12,187 INFO    Thread-303:74711 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190012-dhyweru5/logs/debug.log
+2024-10-13 19:00:12,188 INFO    Thread-303:74711 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190012-dhyweru5/logs/debug-internal.log
+2024-10-13 19:00:12,189 INFO    Thread-303:74711 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:00:12,190 INFO    Thread-303:74711 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.037671054396854774, 'loss_func': 'bce', 'model': 'multi-label', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'bce', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'multi-label', 'early_stopping': True}
+2024-10-13 19:00:12,192 INFO    Thread-303:74711 [wandb_init.py:init():667] starting backend
+2024-10-13 19:00:12,193 INFO    Thread-303:74711 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:00:12,197 INFO    Thread-303:74711 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:00:12,198 INFO    Thread-303:74711 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:00:12,202 INFO    Thread-303:74711 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.037671054396854774, 'loss_func': 'bce', 'model': 'multi-label', 'optimizer': 'mini-batch'}
+2024-10-13 19:00:12,204 INFO    Thread-303:74711 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:00:12,217 INFO    Thread-303:74711 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:00:12,579 INFO    Thread-303:74711 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:00:12,640 INFO    Thread-303:74711 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:00:12,641 INFO    Thread-303:74711 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:00:12,642 INFO    Thread-303:74711 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:00:12,643 INFO    Thread-303:74711 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:00:12,644 INFO    Thread-303:74711 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:00:12,656 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:00:12,656 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:00:12,656 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Configure stats pid to 74711
+2024-10-13 19:00:12,656 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Configure stats pid to 74711
+2024-10-13 19:00:12,657 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:00:12,657 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:00:12,658 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:00:12,658 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:00:12,658 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Multi-Label_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'dhyweru5', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-vs7donsv/config-dhyweru5.yaml', 'sweep_id': 'vs7donsv'}
+2024-10-13 19:00:12,658 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Multi-Label_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'dhyweru5', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-vs7donsv/config-dhyweru5.yaml', 'sweep_id': 'vs7donsv'}
+2024-10-13 19:00:12,659 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:00:12,659 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:00:12,659 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/multi_label_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/multi_label_hyperparameter.py', 'program': 'multi_label_hyperparameter.py'}
+2024-10-13 19:00:12,659 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/multi_label_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/multi_label_hyperparameter.py', 'program': 'multi_label_hyperparameter.py'}
+2024-10-13 19:00:12,660 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:00:12,660 INFO    Thread-303:74711 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:00:12,661 INFO    Thread-303:74711 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190012-dhyweru5/logs/debug.log
+2024-10-13 19:00:12,661 INFO    Thread-303:74711 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190012-dhyweru5/logs/debug.log
+2024-10-13 19:00:12,662 INFO    Thread-303:74711 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190012-dhyweru5/logs/debug-internal.log
+2024-10-13 19:00:12,662 INFO    Thread-303:74711 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190012-dhyweru5/logs/debug-internal.log
+2024-10-13 19:00:12,662 INFO    Thread-303:74711 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:00:12,662 INFO    Thread-303:74711 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:00:12,663 INFO    Thread-303:74711 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.037671054396854774, 'loss_func': 'bce', 'model': 'multi-label', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.037671054396854774, 'activation': 'relu', 'optimizer': 'mini-batch', 'batch_size': 256, 'epochs': 500, 'model': 'multi-label', 'loss_func': 'bce'}
+2024-10-13 19:00:12,663 INFO    Thread-303:74711 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'relu', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [128, 64], 'learning_rate': 0.037671054396854774, 'loss_func': 'bce', 'model': 'multi-label', 'optimizer': 'mini-batch'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.037671054396854774, 'activation': 'relu', 'optimizer': 'mini-batch', 'batch_size': 256, 'epochs': 500, 'model': 'multi-label', 'loss_func': 'bce'}
+2024-10-13 19:00:12,664 INFO    Thread-303:74711 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:00:12,664 INFO    Thread-303:74711 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:00:12,773 INFO    Thread-303:74711 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Multi-Label_hyperparametrs/dhyweru5
+2024-10-13 19:00:12,773 INFO    Thread-303:74711 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Multi-Label_hyperparametrs/dhyweru5
+2024-10-13 19:00:12,774 INFO    Thread-303:74711 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:00:12,774 INFO    Thread-303:74711 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 19:00:12,775 INFO    Thread-303:74711 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:00:12,775 INFO    Thread-303:74711 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:00:12,776 INFO    Thread-303:74711 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:00:12,776 INFO    Thread-303:74711 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:00:15,749 INFO    Thread-303:74711 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:00:15,749 INFO    Thread-303:74711 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:00:15,753 INFO    Thread-303:74711 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:00:15,753 INFO    Thread-303:74711 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:00:15,760 INFO    Thread-303:74711 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:00:15,760 INFO    Thread-303:74711 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-13 19:00:15,761 INFO    Thread-303:74711 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Multi-Label_hyperparametrs/dhyweru5
+2024-10-13 19:00:18,273 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:00:18,274 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Configure stats pid to 74711
+2024-10-13 19:00:18,275 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:00:18,276 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:00:18,276 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Multi-Label_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': '6d72v628', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-vs7donsv/config-6d72v628.yaml', 'sweep_id': 'vs7donsv'}
+2024-10-13 19:00:18,277 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:00:18,278 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/multi_label_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/multi_label_hyperparameter.py', 'program': 'multi_label_hyperparameter.py'}
+2024-10-13 19:00:18,278 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:00:18,279 INFO    Thread-306:74711 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190018-6d72v628/logs/debug.log
+2024-10-13 19:00:18,280 INFO    Thread-306:74711 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190018-6d72v628/logs/debug-internal.log
+2024-10-13 19:00:18,281 INFO    Thread-306:74711 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:00:18,281 INFO    Thread-306:74711 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [32, 16], 'learning_rate': 0.07707488898120779, 'loss_func': 'bce', 'model': 'multi-label', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'bce', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'multi-label', 'early_stopping': True}
+2024-10-13 19:00:18,282 INFO    Thread-306:74711 [wandb_init.py:init():667] starting backend
+2024-10-13 19:00:18,283 INFO    Thread-306:74711 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 19:00:18,286 INFO    Thread-306:74711 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 19:00:18,287 INFO    Thread-306:74711 [wandb_init.py:init():684] backend started and connected
+2024-10-13 19:00:18,292 INFO    Thread-306:74711 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [32, 16], 'learning_rate': 0.07707488898120779, 'loss_func': 'bce', 'model': 'multi-label', 'optimizer': 'sgd'}
+2024-10-13 19:00:18,294 INFO    Thread-306:74711 [wandb_init.py:init():779] updated telemetry
+2024-10-13 19:00:18,307 INFO    Thread-306:74711 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 19:00:18,839 INFO    Thread-306:74711 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 19:00:18,900 INFO    Thread-306:74711 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 19:00:18,902 INFO    Thread-306:74711 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 19:00:18,903 INFO    Thread-306:74711 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 19:00:18,903 INFO    Thread-306:74711 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 19:00:18,904 INFO    Thread-306:74711 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 19:00:18,916 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 19:00:18,917 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Configure stats pid to 74711
+2024-10-13 19:00:18,918 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 19:00:18,918 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 19:00:18,919 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Multi-Label_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': '6d72v628', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-vs7donsv/config-6d72v628.yaml', 'sweep_id': 'vs7donsv'}
+2024-10-13 19:00:18,919 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 19:00:18,920 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'assignments/3/multi_label_hyperparameter.py', 'program_abspath': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/multi_label_hyperparameter.py', 'program': 'multi_label_hyperparameter.py'}
+2024-10-13 19:00:18,921 INFO    Thread-306:74711 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 19:00:18,921 INFO    Thread-306:74711 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190018-6d72v628/logs/debug.log
+2024-10-13 19:00:18,922 INFO    Thread-306:74711 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_190018-6d72v628/logs/debug-internal.log
+2024-10-13 19:00:18,922 INFO    Thread-306:74711 [wandb_init.py:init():617] calling init triggers
+2024-10-13 19:00:18,923 INFO    Thread-306:74711 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 500, 'hidden_layers': [32, 16], 'learning_rate': 0.07707488898120779, 'loss_func': 'bce', 'model': 'multi-label', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.07707488898120779, 'activation': 'tanh', 'optimizer': 'sgd', 'batch_size': 256, 'epochs': 500, 'model': 'multi-label', 'loss_func': 'bce'}
+2024-10-13 19:00:18,924 INFO    Thread-306:74711 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 19:00:19,073 INFO    Thread-306:74711 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Multi-Label_hyperparametrs/6d72v628
+2024-10-13 19:00:19,074 INFO    Thread-306:74711 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 1
+2024-10-13 19:00:19,075 INFO    Thread-306:74711 [wandb_run.py:_restore():2410] restore
+2024-10-13 19:00:19,076 INFO    Thread-306:74711 [wandb_run.py:_restore():2416] restore done
+2024-10-13 19:00:22,929 INFO    Thread-306:74711 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 19:00:22,938 INFO    Thread-306:74711 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 19:00:22,944 INFO    Thread-306:74711 [wandb_run.py:_footer_sync_info():4008] logging synced files

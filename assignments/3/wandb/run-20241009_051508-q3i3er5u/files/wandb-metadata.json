@@ -1,0 +1,43 @@
+{
+  "os":  "Linux-6.8.0-45-generic-x86_64-with-glibc2.17",
+  "python":  "3.8.20",
+  "startedAt":  "2024-10-08T23:45:08.097972Z",
+  "program":  "wandb_check.py",
+  "codePath":  "assignments/3/wandb_check.py",
+  "git":  {
+    "remote":  "https://github.com/smai-monsoon-24/smai-m24-assignments-samkit-2512j.git",
+    "commit":  "facf61af83ea849c5bf0a2d7c44c46fa47981435"
+  },
+  "email":  "samkitjainsam@gmail.com",
+  "root":  "/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3",
+  "host":  "samkit-OMEN",
+  "username":  "samkit",
+  "executable":  "/home/samkit/anaconda3/envs/normal/bin/python3",
+  "codePathLocal":  "wandb_check.py",
+  "cpu_count":  20,
+  "cpu_count_logical":  28,
+  "gpu":  "[NVIDIA GeForce RTX 4060 Laptop GPU]",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "19503599616",
+      "used":  "11229937664"
+    }
+  },
+  "memory":  {
+    "total":  "14339371008"
+  },
+  "cpu":  {
+    "count":  20,
+    "countLogical":  28
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal":  "8585740288",
+      "cudaCores":  3072,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

@@ -1,0 +1,1 @@
+{"train_recall":0.012345679012345678,"_wandb":{"runtime":6},"epochs":50,"_step":0,"hidden_layers":[128,64,32],"train_precision":0.004115226337448559,"train_loss":0.6360937440981546,"val_precision":0,"_timestamp":1.7284304606680202e+09,"val_recall":0,"activation":"sigmoid","val_loss":1.5743473820955887,"batch_size":64,"optimizer":"sgd","_runtime":6.08148825,"learning_rate":0.1}

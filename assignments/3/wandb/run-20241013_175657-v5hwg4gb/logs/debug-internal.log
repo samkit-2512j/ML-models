@@ -1,0 +1,19 @@
+{"time":"2024-10-13T17:56:57.775069788+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T17:56:57.775083008+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_175657-v5hwg4gb/logs/debug-core.log"}
+{"time":"2024-10-13T17:56:57.775173459+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T17:56:57.777573134+05:30","level":"INFO","msg":"created new stream","id":"v5hwg4gb"}
+{"time":"2024-10-13T17:56:57.777587462+05:30","level":"INFO","msg":"stream: started","id":"v5hwg4gb"}
+{"time":"2024-10-13T17:56:57.777600771+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"v5hwg4gb"}}
+{"time":"2024-10-13T17:56:57.777595142+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"v5hwg4gb"}}
+{"time":"2024-10-13T17:56:57.777615614+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"v5hwg4gb"}}
+{"time":"2024-10-13T17:56:58.14330413+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T17:56:58.143525555+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T17:57:59.426776013+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T17:57:59.42826593+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T17:58:00.967221668+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T17:58:02.313137371+05:30","level":"INFO","msg":"stream: closing","id":"v5hwg4gb"}
+{"time":"2024-10-13T17:58:02.313164514+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"v5hwg4gb"}}
+{"time":"2024-10-13T17:58:02.313179381+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"v5hwg4gb"}}
+{"time":"2024-10-13T17:58:02.313193694+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"v5hwg4gb"}}
+{"time":"2024-10-13T17:58:02.313221862+05:30","level":"INFO","msg":"stream: closed","id":"v5hwg4gb"}
+{"time":"2024-10-13T17:58:04.428347607+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

@@ -1,0 +1,4 @@
+<models.MLP.mlp_wandb.MLPW object at 0x72deb2e28f40>
+['books', 'beauty', 'home', 'electronics', 'furniture', 'clothing', 'sports', 'food']
+[9, 64, 32, 8]
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 161.64epoch/s]

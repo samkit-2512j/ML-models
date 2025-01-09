@@ -1,0 +1,19 @@
+{"time":"2024-10-13T17:59:43.805163885+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T17:59:43.80517685+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_175943-pxnxpaux/logs/debug-core.log"}
+{"time":"2024-10-13T17:59:43.805268292+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T17:59:43.807687013+05:30","level":"INFO","msg":"created new stream","id":"pxnxpaux"}
+{"time":"2024-10-13T17:59:43.80770683+05:30","level":"INFO","msg":"stream: started","id":"pxnxpaux"}
+{"time":"2024-10-13T17:59:43.807726906+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"pxnxpaux"}}
+{"time":"2024-10-13T17:59:43.80774609+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pxnxpaux"}}
+{"time":"2024-10-13T17:59:43.807763326+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"pxnxpaux"}}
+{"time":"2024-10-13T17:59:44.223587259+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T17:59:44.2237662+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T17:59:50.559774944+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T17:59:50.561215958+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T17:59:51.672504331+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T17:59:53.062751408+05:30","level":"INFO","msg":"stream: closing","id":"pxnxpaux"}
+{"time":"2024-10-13T17:59:53.062781864+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"pxnxpaux"}}
+{"time":"2024-10-13T17:59:53.062803428+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"pxnxpaux"}}
+{"time":"2024-10-13T17:59:53.062811799+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"pxnxpaux"}}
+{"time":"2024-10-13T17:59:53.062893348+05:30","level":"INFO","msg":"stream: closed","id":"pxnxpaux"}
+{"time":"2024-10-13T17:59:55.562227726+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

@@ -1,0 +1,20 @@
+{"time":"2024-10-09T05:32:02.955886353+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T05:32:02.955896129+05:30","level":"INFO","msg":"created symlink","path":"/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241009_053202-gqo95zji/logs/debug-core.log"}
+{"time":"2024-10-09T05:32:02.961986525+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T05:32:02.966196244+05:30","level":"INFO","msg":"created new stream","id":"gqo95zji"}
+{"time":"2024-10-09T05:32:02.966216444+05:30","level":"INFO","msg":"stream: started","id":"gqo95zji"}
+{"time":"2024-10-09T05:32:02.966236309+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"gqo95zji"}}
+{"time":"2024-10-09T05:32:02.966300774+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"gqo95zji"}}
+{"time":"2024-10-09T05:32:02.966332482+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"gqo95zji"}}
+{"time":"2024-10-09T05:32:03.473762027+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T05:32:03.474185961+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T05:32:04.033119973+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T05:32:04.386808915+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T05:32:06.508440028+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T05:32:08.028171637+05:30","level":"INFO","msg":"stream: closing","id":"gqo95zji"}
+{"time":"2024-10-09T05:32:08.028198695+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"gqo95zji"}}
+{"time":"2024-10-09T05:32:08.028230817+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"gqo95zji"}}
+{"time":"2024-10-09T05:32:08.028226797+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"gqo95zji"}}
+{"time":"2024-10-09T05:32:08.02834466+05:30","level":"INFO","msg":"stream: closed","id":"gqo95zji"}
+{"time":"2024-10-09T05:32:08.505601915+05:30","level":"ERROR","msg":"runwork: ignoring record after close","work":{"Record":{"RecordType":{"Request":{"RequestType":{"Metadata":{"cpu_count":20,"cpu_count_logical":28,"disk":{"/":{"total":19503599616,"used":11230031872}},"memory":{"total":14339371008},"cpu":{"count":20,"count_logical":28}}}}}}}}
+{"time":"2024-10-09T05:32:09.387531288+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

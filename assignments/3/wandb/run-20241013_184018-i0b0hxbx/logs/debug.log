@@ -1,0 +1,49 @@
+2024-10-13 18:40:18,587 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 18:40:18,589 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Configure stats pid to 64564
+2024-10-13 18:40:18,590 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 18:40:18,590 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 18:40:18,591 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Classifier_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'i0b0hxbx', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-edzf3vtm/config-i0b0hxbx.yaml', 'sweep_id': 'edzf3vtm'}
+2024-10-13 18:40:18,591 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 18:40:18,592 WARNING Thread-282:64564 [wandb_setup.py:_flush():79] Could not find program at sweep_wandb.py
+2024-10-13 18:40:18,592 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': 'sweep_wandb.py'}
+2024-10-13 18:40:18,593 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 18:40:18,594 INFO    Thread-282:64564 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_184018-i0b0hxbx/logs/debug.log
+2024-10-13 18:40:18,594 INFO    Thread-282:64564 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_184018-i0b0hxbx/logs/debug-internal.log
+2024-10-13 18:40:18,595 INFO    Thread-282:64564 [wandb_init.py:init():617] calling init triggers
+2024-10-13 18:40:18,595 INFO    Thread-282:64564 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.01242543367506477, 'loss_func': 'cce', 'model': 'classifier', 'optimizer': 'sgd'}
+config: {'hidden_layers': [32, 16], 'learning_rate': 0.001, 'batch_size': 64, 'epochs': 100, 'optimizer': 'mini-batch', 'loss_func': 'cce', 'activation': <class 'models.MLP.activations.tanh'>, 'model': 'classifier', 'early_stopping': True}
+2024-10-13 18:40:18,596 INFO    Thread-282:64564 [wandb_init.py:init():667] starting backend
+2024-10-13 18:40:18,597 INFO    Thread-282:64564 [wandb_init.py:init():671] sending inform_init request
+2024-10-13 18:40:18,599 INFO    Thread-282:64564 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-13 18:40:18,600 INFO    Thread-282:64564 [wandb_init.py:init():684] backend started and connected
+2024-10-13 18:40:18,606 INFO    Thread-282:64564 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.01242543367506477, 'loss_func': 'cce', 'model': 'classifier', 'optimizer': 'sgd'}
+2024-10-13 18:40:18,608 INFO    Thread-282:64564 [wandb_init.py:init():779] updated telemetry
+2024-10-13 18:40:18,620 INFO    Thread-282:64564 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-13 18:40:19,069 INFO    Thread-282:64564 [wandb_init.py:init():863] starting run threads in backend
+2024-10-13 18:40:19,132 INFO    Thread-282:64564 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-13 18:40:19,134 INFO    Thread-282:64564 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-13 18:40:19,134 INFO    Thread-282:64564 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-13 18:40:19,135 INFO    Thread-282:64564 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-13 18:40:19,136 INFO    Thread-282:64564 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-13 18:40:19,147 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-13 18:40:19,148 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Configure stats pid to 64564
+2024-10-13 18:40:19,149 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/.config/wandb/settings
+2024-10-13 18:40:19,150 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Loading settings from /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/settings
+2024-10-13 18:40:19,150 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'Classifier_hyperparametrs', 'entity': 'samkit_25j_', 'root_dir': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3', 'run_id': 'i0b0hxbx', 'sweep_param_path': '/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/sweep-edzf3vtm/config-i0b0hxbx.yaml', 'sweep_id': 'edzf3vtm'}
+2024-10-13 18:40:19,151 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-13 18:40:19,151 WARNING Thread-282:64564 [wandb_setup.py:_flush():79] Could not find program at sweep_wandb.py
+2024-10-13 18:40:19,152 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': 'sweep_wandb.py'}
+2024-10-13 18:40:19,153 INFO    Thread-282:64564 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-13 18:40:19,153 INFO    Thread-282:64564 [wandb_init.py:_log_setup():532] Logging user logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_184019-i0b0hxbx/logs/debug.log
+2024-10-13 18:40:19,154 INFO    Thread-282:64564 [wandb_init.py:_log_setup():533] Logging internal logs to /home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/assignments/3/wandb/run-20241013_184019-i0b0hxbx/logs/debug-internal.log
+2024-10-13 18:40:19,154 INFO    Thread-282:64564 [wandb_init.py:init():617] calling init triggers
+2024-10-13 18:40:19,155 INFO    Thread-282:64564 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'tanh', 'batch_size': 256, 'early_stopping': True, 'epochs': 1000, 'hidden_layers': [128, 64], 'learning_rate': 0.01242543367506477, 'loss_func': 'cce', 'model': 'classifier', 'optimizer': 'sgd'}
+config: {'hidden_layers': [128, 64], 'learning_rate': 0.01242543367506477, 'activation': 'tanh', 'optimizer': 'sgd', 'batch_size': 256, 'epochs': 1000, 'model': 'classifier', 'loss_func': 'cce'}
+2024-10-13 18:40:19,156 INFO    Thread-282:64564 [wandb_init.py:init():662] wandb.init() called when a run is still active
+2024-10-13 18:40:20,354 INFO    Thread-282:64564 [wandb_run.py:_finish():2164] finishing run samkit_25j_/Classifier_hyperparametrs/i0b0hxbx
+2024-10-13 18:40:20,355 INFO    Thread-282:64564 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-13 18:40:20,356 INFO    Thread-282:64564 [wandb_run.py:_restore():2410] restore
+2024-10-13 18:40:20,357 INFO    Thread-282:64564 [wandb_run.py:_restore():2416] restore done
+2024-10-13 18:40:22,821 INFO    Thread-282:64564 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-13 18:40:22,824 INFO    Thread-282:64564 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-13 18:40:22,831 INFO    Thread-282:64564 [wandb_run.py:_footer_sync_info():4008] logging synced files

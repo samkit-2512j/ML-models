@@ -1,0 +1,4 @@
+<models.MLP.mlp_wandb.MLPW object at 0x734e1e6fa310>
+[11, 32, 16, 6]
+Training:   2%|██▊                                                                                                                                    | 21/1000 [00:01<01:02, 15.76epoch/s]
+Early stopping at epoch 21

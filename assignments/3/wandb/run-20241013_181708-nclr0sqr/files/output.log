@@ -1,0 +1,13 @@
+[11, 128, 64, 6]
+Training:  63%|████████████████████████████████████████████████████████████████████████████████████▊                                                  | 314/500 [00:29<00:17, 10.56epoch/s]
+Traceback (most recent call last):
+  File "hyperparameter_mc.py", line 110, in <module>
+    val_accuracy = train_and_log_model(config)
+  File "hyperparameter_mc.py", line 86, in train_and_log_model
+    model.fit(X_train, y_train, X_val, y_val, 6,log_wandb=True)
+  File "/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py", line 212, in fit
+    dW, db = self.back_prop(X[i:i+1], y[i:i+1])
+  File "/home/samkit/Documents/smai/smai-m24-assignments-samkit-2512j/models/MLP/mlp_wandb.py", line 112, in back_prop
+    dW[i] = np.dot(activations[i].T, delta) / m
+  File "<__array_function__ internals>", line 200, in dot
+KeyboardInterrupt
